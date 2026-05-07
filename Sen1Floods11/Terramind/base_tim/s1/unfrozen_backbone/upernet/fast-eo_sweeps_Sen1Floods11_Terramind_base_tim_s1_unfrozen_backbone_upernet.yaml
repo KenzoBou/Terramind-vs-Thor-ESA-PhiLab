@@ -1,0 +1,143 @@
+data:
+  class_path: terratorch.datamodules.GenericMultiModalDataModule
+  init_args:
+    batch_size: 8
+    dataset_bands:
+      S1GRD:
+      - VV
+      - VH
+    image_grep:
+      S1GRD: '*_S1Hand.tif'
+    label_grep: '*_LabelHand.tif'
+    means:
+      S1GRD:
+      - -12.599
+      - -20.293
+    modalities:
+    - S1GRD
+    no_data_replace: 0
+    no_label_replace: -1
+    num_classes: 2
+    num_workers: 15
+    output_bands:
+      S1GRD:
+      - VV
+      - VH
+    rgb_indices:
+    - 3
+    - 2
+    - 1
+    rgb_modality: S1GRD
+    stds:
+      S1GRD:
+      - 5.195
+      - 5.89
+    task: segmentation
+    test_data_root:
+      S1GRD: dataset/sen1floods11/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand
+    test_label_data_root: dataset/sen1floods11/sen1floods11/v1.1/data/flood_events/HandLabeled/LabelHand
+    test_split: dataset/sen1floods11/sen1floods11/v1.1/splits/flood_handlabeled/flood_test_data.txt
+    train_data_root:
+      S1GRD: dataset/sen1floods11/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand
+    train_label_data_root: dataset/sen1floods11/sen1floods11/v1.1/data/flood_events/HandLabeled/LabelHand
+    train_split: dataset/sen1floods11/sen1floods11/v1.1/splits/flood_handlabeled/flood_train_data.txt
+    train_transform:
+    - class_path: albumentations.RandomCrop
+      init_args:
+        height: 288
+        width: 288
+    - class_path: albumentations.D4
+    - class_path: albumentations.pytorch.ToTensorV2
+    val_data_root:
+      S1GRD: dataset/sen1floods11/sen1floods11/v1.1/data/flood_events/HandLabeled/S1Hand
+    val_label_data_root: dataset/sen1floods11/sen1floods11/v1.1/data/flood_events/HandLabeled/LabelHand
+    val_split: dataset/sen1floods11/sen1floods11/v1.1/splits/flood_handlabeled/flood_valid_data.txt
+lr_scheduler:
+  class_path: ReduceLROnPlateau
+  init_args:
+    factor: 0.5
+    min_lr: 1e-6
+    monitor: val/loss
+    patience: 10
+model:
+  class_path: terratorch.tasks.SemanticSegmentationTask
+  init_args:
+    class_names:
+    - Others
+    - Flood
+    freeze_backbone: false
+    freeze_decoder: false
+    ignore_index: -1
+    loss: dice
+    model_args:
+      backbone: terramind_v1_base_tim
+      backbone_merge_method: concat
+      backbone_modalities:
+      - S1GRD
+      backbone_pretrained: true
+      backbone_tim_modalities:
+      - S2L1C
+      decoder: UperNetDecoder
+      decoder_channels: 256
+      head_dropout: 0.2
+      necks:
+      - indices:
+        - 2
+        - 5
+        - 8
+        - 11
+        name: SelectIndices
+      - name: ReshapeTokensToImage
+        remove_cls_token: false
+      - name: LearnedInterpolateToPyramidal
+      num_classes: 2
+    model_factory: EncoderDecoderFactory
+    plot_on_val: false
+    tiled_inference_on_testing: true
+    tiled_inference_on_validation: true
+    tiled_inference_parameters:
+      average_patches: true
+      batch_size: 4
+      h_crop: 288
+      h_stride: 256
+      w_crop: 288
+      w_stride: 256
+optimizer:
+  class_path: torch.optim.AdamW
+  init_args:
+    lr: 2.0e-05
+    weight_decay: 0.05
+seed_everything: 0
+trainer:
+  accelerator: auto
+  callbacks:
+  - class_path: RichProgressBar
+  - class_path: LearningRateMonitor
+    init_args:
+      logging_interval: epoch
+  - class_path: ModelCheckpoint
+    init_args:
+      monitor: val/loss
+      save_last: true
+      save_top_k: 1
+  - class_path: EarlyStopping
+    init_args:
+      monitor: val/loss
+      patience: 30
+      verbose: true
+  - class_path: src.callbacks.auto_test.AutoTestCallback
+  check_val_every_n_epoch: 1
+  default_root_dir: outputs/sen1floods11
+  devices: auto
+  enable_checkpointing: true
+  log_every_n_steps: 1
+  logger:
+    class_path: WandbLogger
+    init_args:
+      group: Sen1Floods11
+      name: sen1floods11/Terramind_Sen1Floods11_UperNetDecoder
+      save_dir: outputs
+  max_epochs: 200
+  num_nodes: 1
+  precision: 16-mixed
+  strategy: auto

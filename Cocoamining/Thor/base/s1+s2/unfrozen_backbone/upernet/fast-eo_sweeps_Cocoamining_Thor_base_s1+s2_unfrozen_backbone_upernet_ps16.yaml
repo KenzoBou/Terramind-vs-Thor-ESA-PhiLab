@@ -1,0 +1,188 @@
+custom_modules_path: thor_terratorch_ext/thor_terratorch_ext
+data:
+  class_path: datamodules.cocoamining.cocoamining.CocoaMiningDataModule
+  init_args:
+    batch_size: 8
+    dataset_bands:
+    - BLUE
+    - GREEN
+    - RED
+    - RED_EDGE_1
+    - RED_EDGE_2
+    - RED_EDGE_3
+    - NIR_BROAD
+    - NIR_NARROW
+    - SWIR_1
+    - SWIR_2
+    - VV
+    - VH
+    img_grep: IMAGE/IMG_*.tif
+    label_grep: MASK/MASK_*.tif
+    means:
+    - 1465.1607666
+    - 1720.6348877
+    - 1695.578125
+    - 2131.74975586
+    - 3223.77392578
+    - 3626.39038086
+    - 3727.01831055
+    - 3927.40429688
+    - 3205.23754883
+    - 2228.02368164
+    - -7.411948
+    - -13.111131
+    no_data_replace: 0
+    no_label_replace: -1
+    num_classes: 3
+    num_workers: 15
+    output_bands:
+    - BLUE
+    - GREEN
+    - RED
+    - RED_EDGE_1
+    - RED_EDGE_2
+    - RED_EDGE_3
+    - NIR_BROAD
+    - NIR_NARROW
+    - SWIR_1
+    - SWIR_2
+    - VV
+    - VH
+    split_path: dataset/cocoamining/CocoaMining/2022/train_test_splits.csv
+    stds:
+    - 148.41740417
+    - 196.94464111
+    - 285.10070801
+    - 271.32940674
+    - 257.74014282
+    - 300.72171021
+    - 348.69989014
+    - 321.46240234
+    - 333.51858521
+    - 324.53616333
+    - 1.5791215
+    - 1.5580333
+    test_data_root: dataset/cocoamining/CocoaMining/2022
+    test_transform:
+    - class_path: albumentations.Resize
+      init_args:
+        height: 128
+        width: 128
+    - class_path: albumentations.pytorch.ToTensorV2
+    train_data_root: dataset/cocoamining/CocoaMining/2022
+    train_transform:
+    - class_path: albumentations.Resize
+      init_args:
+        height: 128
+        width: 128
+    - class_path: albumentations.D4
+    - class_path: albumentations.pytorch.ToTensorV2
+    val_data_root: dataset/cocoamining/CocoaMining/2022
+    val_transform:
+    - class_path: albumentations.Resize
+      init_args:
+        height: 128
+        width: 128
+    - class_path: albumentations.pytorch.ToTensorV2
+lr_scheduler:
+  class_path: ReduceLROnPlateau
+  init_args:
+    factor: 0.5
+    min_lr: 1e-6
+    monitor: val/loss
+    patience: 10
+model:
+  class_path: datamodules.cocoamining.cocoamining.CocoaMiningTask
+  init_args:
+    class_names:
+    - Background
+    - Mining
+    - Cocoa
+    freeze_backbone: false
+    freeze_decoder: false
+    ignore_index: -1
+    loss: ce
+    lr: 2e-5
+    model_args:
+      backbone: thor_v1_base
+      backbone_input_params:
+        flexivit_patch_size_seqs:
+        - 16
+        ground_covers:
+        - 1280
+      backbone_modalities:
+      - S2L2A
+      - S1RTC
+      backbone_model_bands:
+      - BLUE
+      - GREEN
+      - RED
+      - RED_EDGE_1
+      - RED_EDGE_2
+      - RED_EDGE_3
+      - NIR_BROAD
+      - NIR_NARROW
+      - SWIR_1
+      - SWIR_2
+      - VV
+      - VH
+      backbone_model_ckpt_type: encoder
+      backbone_out_indices:
+      - 2
+      - 5
+      - 8
+      - 11
+      backbone_pretrained: true
+      backbone_return_channel_params: true
+      decoder: UperNetDecoder
+      decoder_channels: 256
+      head_channel_list:
+      - 256
+      head_dropout: 0.2
+      necks:
+      - name: THORGroupReshapeTokensToImage
+      - name: LearnedInterpolateToPyramidal
+      num_classes: 3
+    model_factory: EncoderDecoderFactory
+    plot_on_val: true
+optimizer:
+  class_path: torch.optim.AdamW
+  init_args:
+    lr: 2e-5
+    weight_decay: 0.05
+seed_everything: 0
+trainer:
+  accelerator: auto
+  callbacks:
+  - class_path: RichProgressBar
+  - class_path: NormalizationCheckCallback
+  - class_path: LearningRateMonitor
+    init_args:
+      logging_interval: epoch
+  - class_path: ModelCheckpoint
+    init_args:
+      monitor: val/loss
+      save_last: true
+      save_top_k: 1
+  - class_path: EarlyStopping
+    init_args:
+      min_delta: 0.0
+      monitor: val/loss
+      patience: 30
+      verbose: true
+  - class_path: src.callbacks.auto_test.AutoTestCallback
+  check_val_every_n_epoch: 1
+  default_root_dir: outputs/cocoamining
+  devices: 1
+  enable_checkpointing: true
+  log_every_n_steps: 1
+  logger:
+    class_path: WandbLogger
+    init_args:
+      group: Cocoamining
+      name: cocoamining/Thorsweep
+      save_dir: outputs
+  max_epochs: 200
+  num_nodes: 1
+  precision: 16-mixed
+  strategy: auto
