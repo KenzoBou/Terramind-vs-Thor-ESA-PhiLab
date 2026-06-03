@@ -1,0 +1,127 @@
+seed_everything: 0
+custom_modules_path: ./thor_terratorch_ext
+trainer:
+  accelerator: gpu
+  strategy: auto
+  devices: auto
+  num_nodes: 1
+  precision: 16-mixed
+  max_epochs: 200
+  check_val_every_n_epoch: 1
+  accumulate_grad_batches: 1
+  log_every_n_steps: 1
+  enable_checkpointing: true
+  default_root_dir: ./results
+  logger:
+  - class_path: WandbLogger
+    init_args:
+      save_dir: ./results
+      log_model: true
+      name: seaice_S1_3classes_thor_tiny_frozen_linear_ps4
+  callbacks:
+  - class_path: RichProgressBar
+  - class_path: LearningRateMonitor
+    init_args:
+      logging_interval: epoch
+  - class_path: EarlyStopping
+    init_args:
+      monitor: val/loss
+      patience: 30
+      mode: min
+      check_finite: false
+      verbose: true
+  - class_path: ModelCheckpoint
+    init_args:
+      monitor: val/loss
+      mode: min
+      save_top_k: 1
+      save_last: true
+data:
+  class_path: thor_terratorch_ext.datamodules.sea_ice_module.SeaIceNonGeoDataModule
+  init_args:
+    batch_size: 8
+    num_workers: 4
+    bands:
+    - EW-HH_250
+    - EW-HV_250
+    train_transform:
+    - class_path: albumentations.CropNonEmptyMaskIfExists
+      init_args:
+        height: 224
+        width: 224
+        p: 1.0
+        ignore_values:
+        - 255
+    - class_path: ToTensorV2
+    val_transform:
+    - class_path: albumentations.CenterCrop
+      init_args:
+        height: 224
+        width: 224
+        p: 1.0
+    - class_path: ToTensorV2
+    test_transform:
+    - class_path: albumentations.CenterCrop
+      init_args:
+        height: 224
+        width: 224
+        p: 1.0
+    - class_path: ToTensorV2
+    data_root: /shared/home/fschindlegger/thor_terratorch_ext/data/seaice/raw/ftp.nr.no/outgoing/jooutgoing/fm4cs/data/seaice_lkdslkewklsd
+    no_label_replace: 255
+    no_data_replace: median
+    means:
+    - -12.2785
+    - -21.8712
+    stds:
+    - 18.2552
+    - 26.8276
+model:
+  class_path: terratorch.tasks.SemanticSegmentationTask
+  init_args:
+    model_args:
+      num_classes: 3
+      backbone: terratorch_thor_vit_tiny_encoder_alibi_patch_size_embed_v1
+      backbone_ckpt: /shared/home/fschindlegger/thor_terratorch_ext/pretrained/thor/thor_v1_vit_tiny.pt
+      backbone_model_ckpt_type: encoder
+      backbone_return_channel_params: true
+      backbone_pretrained: true
+      decoder: LinearDecoder
+      decoder_upsampling_size: 4
+      necks:
+      - name: THORGroupReshapeTokensToImage
+      backbone_out_indices:
+      - -1
+      backbone_input_params:
+        ground_covers:
+        - 2240
+        flexivit_patch_size_seqs:
+        - 4
+      backbone_model_bands:
+      - EW_HH
+      - EW_HV
+      decoder_num_classes: 3
+    model_factory: EncoderDecoderFactory
+    plot_on_val: 1
+    loss:
+    - ce
+    ignore_index: 255
+    class_weights:
+    - 0.25
+    - 0.5
+    - 0.25
+    freeze_backbone: true
+    freeze_decoder: false
+optimizer:
+  class_path: torch.optim.AdamW
+  init_args:
+    lr: 0.0001
+    weight_decay: 0.05
+lr_scheduler:
+  class_path: ReduceLROnPlateau
+  init_args:
+    monitor: val/loss
+    mode: min
+    factor: 0.5
+    patience: 20
+    threshold: 0.001

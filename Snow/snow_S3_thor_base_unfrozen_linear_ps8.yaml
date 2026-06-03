@@ -1,0 +1,133 @@
+seed_everything: 0
+custom_modules_path: ./thor_terratorch_ext
+trainer:
+  accelerator: gpu
+  strategy: auto
+  devices: auto
+  num_nodes: 1
+  precision: 32
+  max_epochs: 200
+  check_val_every_n_epoch: 1
+  accumulate_grad_batches: 1
+  log_every_n_steps: 1
+  enable_checkpointing: true
+  default_root_dir: ./results
+  logger:
+  - class_path: WandbLogger
+    init_args:
+      save_dir: ./results
+      log_model: true
+      name: snow_S3_thor_base_unfrozen_linear_ps8
+  callbacks:
+  - class_path: RichProgressBar
+  - class_path: LearningRateMonitor
+    init_args:
+      logging_interval: epoch
+  - class_path: EarlyStopping
+    init_args:
+      monitor: val/loss
+      patience: 30
+      mode: min
+      check_finite: false
+      verbose: true
+  - class_path: ModelCheckpoint
+    init_args:
+      monitor: val/loss
+      mode: min
+      save_top_k: 1
+      save_last: true
+data:
+  class_path: thor_terratorch_ext.datamodules.snow_map_module.SnowMapNonGeoDataModule
+  init_args:
+    batch_size: 8
+    num_workers: 4
+    bands:
+    - S1_reflectance_an
+    - S2_reflectance_an
+    - S3_reflectance_an
+    - S5_reflectance_an
+    - S6_reflectance_an
+    train_transform:
+    - class_path: albumentations.CropNonEmptyMaskIfExists
+      init_args:
+        height: 144
+        width: 144
+        p: 1.0
+        ignore_values:
+        - 255
+    - class_path: ToTensorV2
+    val_transform:
+    - class_path: albumentations.CenterCrop
+      init_args:
+        height: 144
+        width: 144
+        p: 1.0
+    - class_path: ToTensorV2
+    test_transform:
+    - class_path: albumentations.CenterCrop
+      init_args:
+        height: 144
+        width: 144
+        p: 1.0
+    - class_path: ToTensorV2
+    data_root: /shared/home/fschindlegger/thor_terratorch_ext/data/snow/raw/ftp.nr.no/outgoing/jooutgoing/fm4cs/data/snow_dlkdklsd/rev8
+    no_label_replace: 255
+    no_data_replace: median
+    means:
+    - 0.3376
+    - 0.337
+    - 0.4052
+    - 0.1829
+    - 0.136
+    stds:
+    - 0.1604
+    - 0.1718
+    - 0.1745
+    - 0.1009
+    - 0.0807
+model:
+  class_path: terratorch.tasks.PixelwiseRegressionTask
+  init_args:
+    plot_on_val: 1
+    loss: mae
+    model_factory: EncoderDecoderFactory
+    ignore_index: 255
+    model_args:
+      backbone: terratorch_thor_vit_base_encoder_alibi_patch_size_embed_v1
+      backbone_ckpt: /shared/home/fschindlegger/thor_terratorch_ext/pretrained/thor/thor_v1_vit_base.pt
+      backbone_model_ckpt_type: encoder
+      backbone_return_channel_params: true
+      backbone_pretrained: true
+      decoder: LinearDecoder
+      decoder_upsampling_size: 8
+      necks:
+      - name: THORGroupReshapeTokensToImage
+      backbone_out_indices:
+      - -1
+      backbone_input_params:
+        ground_covers:
+        - 69120
+        flexivit_patch_size_seqs:
+        - 8
+      backbone_model_bands:
+      - S1_REFLECTANCE_AN
+      - S2_REFLECTANCE_AN
+      - S3_REFLECTANCE_AN
+      - S5_REFLECTANCE_AN
+      - S6_REFLECTANCE_AN
+      decoder_num_classes: 1
+    freeze_backbone: false
+    freeze_decoder: false
+optimizer:
+  class_path: torch.optim.AdamW
+  init_args:
+    lr: 2.0e-05
+    weight_decay: 0.05
+lr_scheduler:
+  class_path: ReduceLROnPlateau
+  init_args:
+    monitor: val/loss
+    mode: min
+    factor: 0.5
+    patience: 20
+    threshold: 0.001
