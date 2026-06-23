@@ -1,0 +1,893 @@
+Accuracy,Batch-size,CONSORTIUM,Decoder,F1,Freeze backbone?,Input Modalities,Instance-wise_F1 Score,Instance-wise_False Negatives,Instance-wise_False Positives,Instance-wise_Precision,Instance-wise_Recall,Instance-wise_True Positives,IoU_target_class,Loss,Model,Patch_size,Precision_pixel,RMSE,Recall,Run id,Subset,Subset seed,Sweep id,Task,TiM modalities (Terramind),USE CASE,Unnamed: 28,Version,mIoU (default macro),mIoU micro
+,,FAST-EO,linear,,False,s2,,,,,,,0.754523575,,Terramind,16 (Terramind),,,,eiyv5zxn,,,ulr1r2ax,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,ID added afterwards ,base,0.861260653,0.943377316
+,,FAST-EO,linear,,True,s2,,,,,,,0.600431502,,Terramind,16 (Terramind),,,,2a3h1fb8,,,ulr1r2ax,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,ID added afterwards ,base,0.771192789,0.898633718
+,,FAST-EO,upernet,,False,s2,,,,,,,0.806519032,,Terramind,16 (Terramind),,,,wmg5unyd,,,ulr1r2ax,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,ID added afterwards ,base,0.890989423,0.956444204
+,,FAST-EO,upernet,,True,s2,,,,,,,0.695975602,,Terramind,16 (Terramind),,,,dqcoapku,,,ulr1r2ax,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,ID added afterwards ,base,0.828178644,0.92989856
+,,FAST-EO,upernet,,False,s2,,,,,,,0.767735302,,Terramind,16 (Terramind),,,,tx3d2usj,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.817275107,0.83626157
+,,FAST-EO,upernet,,False,s1+s2+dem,,,,,,,0.765826583,,Terramind,16 (Terramind),,,,my0mggmw,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.816586852,0.836108744
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.768294513,,Terramind,16 (Terramind),,,,dg4lxdse,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.812916636,0.829960644
+,,FAST-EO,upernet,,True,s2,,,,,,,0.769804001,,Terramind,16 (Terramind),,,,ak59ktlz,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.812774301,0.829250515
+,,FAST-EO,linear,,False,s2,,,,,,,0.757832468,,Terramind,16 (Terramind),,,,qiazjgme,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.811491847,0.831780016
+,,FAST-EO,upernet,,True,s1+s2+dem,,,,,,,0.769578457,,Terramind,16 (Terramind),,,,88hvl2su,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.810411215,0.826324224
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.746708632,,Terramind,16 (Terramind),,,,thc400un,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.8097471,0.834136903
+,,FAST-EO,linear,,False,s1+s2+dem,,,,,,,0.749961674,,Terramind,16 (Terramind),,,,bom8spdh,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.809579253,0.832065463
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.724741757,,Terramind,16 (Terramind),,,,42wc1hde,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.799809098,0.828022957
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.70400244,,Terramind,16 (Terramind),,,,40hx0iz6,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.741534531,0.756064177
+,,FAST-EO,linear,,True,s2,,,,,,,0.699596167,,Terramind,16 (Terramind),,,,xnup9x1s,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.740303934,0.755782068
+,,FAST-EO,linear,,True,s1+s2+dem,,,,,,,0.690184295,,Terramind,16 (Terramind),,,,xm0pfqdy,,,5dv1gjc7,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.731014371,0.746617973
+,,FAST-EO,upernet,,False,s2,,,,,,,0.843690038,,Terramind,16 (Terramind),,,,gl1grbbo,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.910005927,0.95887363
+,,FAST-EO,upernet,,True,s2,,,,,,,0.829421163,,Terramind,16 (Terramind),,,,ct9lpiwj,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.901875973,0.955376506
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.825224876,,Terramind,16 (Terramind),,,,qyn9pgb4,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.899446607,0.954231977
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.819001794,,Terramind,16 (Terramind),,,,1rf7oxdv,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.895927608,0.952787876
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.774291635,,Terramind,16 (Terramind),,,,4f7tf5oj,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.869347155,0.93850404
+,,FAST-EO,linear,,True,s2,,,,,,,0.766462982,,Terramind,16 (Terramind),,,,2reu82bh,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.865331888,0.937918127
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.753472865,,Terramind,16 (Terramind),,,,3kxqjfyy,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.857668281,0.933945596
+,,FAST-EO,linear,,False,s2,,,,,,,0.707613409,,Terramind,16 (Terramind),,,,1gcbu0w1,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.830273688,0.918919563
+,,FAST-EO,upernet,,True,s1,,,,,,,0.698191464,,Terramind,16 (Terramind),,,,fb1i2ao6,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.82511735,0.917237401
+,,FAST-EO,upernet,,False,s1,,,,,,,0.661833644,,Terramind,16 (Terramind),,,,6wf9x7kz,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.804536045,0.908718765
+,,FAST-EO,linear,,True,s1,,,,,,,0.65405798,,Terramind,16 (Terramind),,,,b495hywe,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.799426675,0.904785037
+,,FAST-EO,linear,,False,s1,,,,,,,0.621372879,,Terramind,16 (Terramind),,,,u8m1uxfh,,,mihm8i51,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base,0.777979374,0.888444841
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.84241879,,Terramind,16 (Terramind),,,,iu1rvyyc,,,22aun7nr,Segmentation,"[""LULC""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.909303308,0.958627582
+,,FAST-EO,upernet,,False,s2,,,,,,,0.840119004,,Terramind,16 (Terramind),,,,pdutbre8,,,22aun7nr,Segmentation,"[""S1GRD""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.908002496,0.95809257
+,,FAST-EO,upernet,,True,s2,,,,,,,0.833766878,,Terramind,16 (Terramind),,,,ghpapzta,,,22aun7nr,Segmentation,"[""S1GRD""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.904240966,0.956106544
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.831145823,,Terramind,16 (Terramind),,,,awqa5rvo,,,22aun7nr,Segmentation,"[""LULC""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.902744889,0.955456078
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.81800878,,Terramind,16 (Terramind),,,,igij709i,,,22aun7nr,Segmentation,"[""LULC""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.895066738,0.951654375
+,,FAST-EO,linear,,False,s2,,,,,,,0.798135817,,Terramind,16 (Terramind),,,,dzo9yqmy,,,22aun7nr,Segmentation,"[""S1GRD""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.88353312,0.94614923
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.782424986,,Terramind,16 (Terramind),,,,dld587nm,,,22aun7nr,Segmentation,"[""LULC""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.874598324,0.942347825
+,,FAST-EO,linear,,True,s2,,,,,,,0.771426499,,Terramind,16 (Terramind),,,,gvlrp679,,,22aun7nr,Segmentation,"[""S1GRD""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.868205786,0.93927294
+,,FAST-EO,upernet,,False,s1,,,,,,,0.698952973,,Terramind,16 (Terramind),,,,6ofbqx02,,,22aun7nr,Segmentation,"[""S2L1C""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.825538516,0.917386293
+,,FAST-EO,linear,,True,s1,,,,,,,0.659497976,,Terramind,16 (Terramind),,,,3os7f7c4,,,22aun7nr,Segmentation,"[""S2L1C""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.802552223,0.906197488
+,,FAST-EO,upernet,,True,s1,,,,,,,0.648682237,,Terramind,16 (Terramind),,,,l4yrtvnu,,,22aun7nr,Segmentation,"[""S2L1C""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.797178745,0.905901074
+,,FAST-EO,linear,,False,s1,,,,,,,0.645148575,,Terramind,16 (Terramind),,,,gkkjfbqg,,,22aun7nr,Segmentation,"[""S2L1C""]",UC1: Sen1Floods11- Weather & Climate Disaster Analysis,ID added afterwards ,base_tim,0.794093966,0.901836097
+,,FAST-EO,linear,,False,s1,,,,,,,0.742378831,,Terramind,16 (Terramind),,,,rj99y02l,,,dsx7uxgm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.766708195,0.776227772
+,,FAST-EO,linear,,True,s1,,,,,,,0.69845885,,Terramind,16 (Terramind),,,,9eyk5y47,,,dsx7uxgm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.690403342,0.687777519
+,,FAST-EO,upernet,,False,s1,,,,,,,0.761354208,,Terramind,16 (Terramind),,,,1swwh8br,,,dsx7uxgm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.776028514,0.781913936
+,,FAST-EO,upernet,,True,s1,,,,,,,0.758496284,,Terramind,16 (Terramind),,,,tcd2o7jb,,,dsx7uxgm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,ID added afterwards ,base,0.756087184,0.755512893
+,,FAST-EO,upernet,,True,s2,,,,,,,0.816211641,,Thor,8,,,,8alcazyk,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.894335628,0.952097476
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.814512193,,Thor,8,,,,kv7v0bsv,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.893252075,0.951332331
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.811455309,,Thor,8,,,,c1d3u0fw,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.891410828,0.950283289
+,,FAST-EO,upernet,,False,s2,,,,,,,0.810985625,,Thor,8,,,,35kxp2n5,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.891295195,0.95062685
+,,FAST-EO,upernet,,True,s2,,,,,,,0.810246825,,Thor,8,,,,825lh0ok,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.89084971,0.950371504
+,,FAST-EO,upernet,,False,s2,,,,,,,0.807523012,,Thor,8,,,,40lqqm29,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.889350355,0.949863076
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.804338574,,Thor,8,,,,lpko5dac,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.887506008,0.948992193
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.803052485,,Thor,8,,,,0ha7akdq,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.886331201,0.947344601
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.796537936,,Thor,8,,,,97eifqe1,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.882555425,0.945555508
+,,FAST-EO,linear,,False,s2,,,,,,,0.795234442,,Thor,8,,,,hribvwlc,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.881905675,0.945515096
+,,FAST-EO,linear,,True,s2,,,,,,,0.795080781,,Thor,8,,,,7dpvclri,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.881615281,0.944868624
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.793132901,,Thor,8,,,,e8wb2enh,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.88078475,0.945229888
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.792733669,,Thor,8,,,,ck772eit,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.880407572,0.944681704
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.78811723,,Thor,8,,,,o9c4904t,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.877628565,0.943103731
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.78706181,,Thor,16,,,,yt2fvelu,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.877245426,0.943499982
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.779548407,,Thor,16,,,,wwmn6bmw,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.872958004,0.941638887
+,,FAST-EO,linear,,False,s2,,,,,,,0.77843076,,Thor,8,,,,qkd9g4eb,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.872201264,0.941003978
+,,FAST-EO,linear,,True,s2,,,,,,,0.775847852,,Thor,8,,,,m1grg1t3,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.870414019,0.939424276
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.771272004,,Thor,16,,,,mmvt7krn,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.868440866,0.940209389
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.769979537,,Thor,16,,,,py3jpt9q,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.867513895,0.939317286
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.767431855,,Thor,16,,,,hp9a7l0k,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.865766048,0.937801421
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.765594184,,Thor,16,,,,g37lmtj1,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.864270091,0.936007798
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.75690186,,Thor,16,,,,cq60s823,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.859414637,0.934165478
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.742447257,,Thor,32,,,,pbwssin8,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.851273775,0.930904627
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.738383114,,Thor,32,,,,it89w8ze,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.848468065,0.928442597
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.729777694,,Thor,32,,,,zi7hzrs0,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.843525171,0.92621249
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.726685822,,Thor,32,,,,cnkxebeq,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.84214586,0.926597357
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.725985467,,Thor,32,,,,78636ym9,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.841960609,0.927067459
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.724157631,,Thor,32,,,,zko11l81,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.839901805,0.923579752
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.72133249,,Thor,32,,,,ggizkh0z,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.83850193,0.923510194
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.706582904,,Thor,16,,,,7dzu6n5f,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.829362988,0.917708158
+,,FAST-EO,upernet,,True,s1,,,,,,,0.659424186,,Thor,8,,,,c8fqq6f5,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.802831292,0.907135665
+,,FAST-EO,upernet,,False,s1,,,,,,,0.650887966,,Thor,8,,,,6t7sls3x,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.797724307,0.904315889
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.651687443,,Thor,32,,,,2kc8yq29,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.796112835,0.898417711
+,,FAST-EO,linear,,True,s1,,,,,,,0.646840632,,Thor,8,,,,39jaa27s,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.794881701,0.901728034
+,,FAST-EO,linear,,False,s1,,,,,,,0.645581484,,Thor,8,,,,0ykvs8zc,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.793693542,0.900026441
+,,FAST-EO,upernet,,True,s1,,,,,,,0.641471386,,Thor,8,,,,8k8adwkc,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.792306542,0.901849031
+,,FAST-EO,upernet,,False,s1,,,,,,,0.638673663,,Thor,8,,,,0hyg3bw1,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.790356278,0.900102556
+,,FAST-EO,linear,,True,s1,,,,,,,0.624091685,,Thor,8,,,,2l8ltvoe,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.781916559,0.896132946
+,,FAST-EO,linear,,False,s1,,,,,,,0.618483901,,Thor,8,,,,fow60axs,,,rjil9pnb,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.776284814,0.887592077
+,,FAST-EO,linear,,False,s2,,,,,,,0.73564142,,Thor,8,,,,5hh3vj82,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.849882483,0.936821103
+,,FAST-EO,upernet,,False,s2,,,,,,,0.72836709,,Thor,8,,,,5mzzacwg,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.84645462,0.93727237
+,,FAST-EO,upernet,,True,s2,,,,,,,0.697348237,,Thor,8,,,,kj94wx8j,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.828473806,0.928714514
+,,FAST-EO,upernet,,False,s2,,,,,,,0.690150917,,Thor,16,,,,so49zuuw,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.823224306,0.923399508
+,,FAST-EO,linear,,False,s2,,,,,,,0.688495278,,Thor,16,,,,8nlqcnjm,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.822427988,0.92344588
+,,FAST-EO,linear,,True,s2,,,,,,,0.661001801,,Thor,8,,,,l40dt690,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.806967854,0.917343855
+,,FAST-EO,upernet,,True,s2,,,,,,,0.651535571,,Thor,16,,,,mr5xpeqm,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.801789045,0.915688336
+,,FAST-EO,upernet,,False,s2,,,,,,,0.63753289,,Thor,32,,,,wy8g00y9,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.793589234,0.911575258
+,,FAST-EO,linear,,True,s2,,,,,,,0.62930429,,Thor,16,,,,krscbh2k,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.789064169,0.910064161
+,,FAST-EO,linear,,False,s2,,,,,,,0.609788299,,Thor,32,,,,tpokxrdk,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.777553439,0.90407902
+,,FAST-EO,upernet,,True,s2,,,,,,,0.584282815,,Thor,32,,,,oewlxthd,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.760973036,0.891583443
+,,FAST-EO,linear,,True,s2,,,,,,,0.572125793,,Thor,32,,,,pw7bfr25,,,mhkc1kzf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.755172133,0.892027438
+,,FAST-EO,upernet,,False,s2,,,,,,,0.774433553,,Terramind,16 (Terramind),,,,djb139bz,,,lfwu1s17,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.872410536,0.947647929
+,,FAST-EO,linear,,False,s2,,,,,,,0.684974551,,Terramind,16 (Terramind),,,,a6hocsz0,,,lfwu1s17,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.820075512,0.921519697
+,,FAST-EO,upernet,,True,s2,,,,,,,0.669710994,,Terramind,16 (Terramind),,,,3dicvgsx,,,lfwu1s17,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.812667131,0.921758771
+,,FAST-EO,linear,,True,s2,,,,,,,0.500502348,,Terramind,16 (Terramind),,,,2tgficz8,,,lfwu1s17,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.709235787,0.85908097
+,,FAST-EO,upernet,,False,s2,,,,,,,0.830508053,,Terramind,16 (Terramind),,,,hcbhdst8,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.902478933,0.955593646
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.830256402,,Terramind,16 (Terramind),,,,b8h1fsfz,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.902267516,0.955326557
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.82131052,,Terramind,16 (Terramind),,,,slwjziaa,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.897106051,0.952939928
+,,FAST-EO,upernet,,True,s2,,,,,,,0.8127051,,Terramind,16 (Terramind),,,,cjhqvhnk,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.892084002,0.950472176
+,,FAST-EO,linear,,True,s2,,,,,,,0.728088856,,Terramind,16 (Terramind),,,,ahffibcv,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.843158603,0.927581668
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.712317765,,Terramind,16 (Terramind),,,,1gyzrcon,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.83381474,0.922640324
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.703979731,,Terramind,16 (Terramind),,,,1fszcbsg,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.827869892,0.917039454
+,,FAST-EO,linear,,False,s2,,,,,,,0.700139046,,Terramind,16 (Terramind),,,,0b3keyhz,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.825701833,0.916155934
+,,FAST-EO,upernet,,False,s1,,,,,,,0.695785284,,Terramind,16 (Terramind),,,,crf2gl16,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.823365867,0.91551578
+,,FAST-EO,upernet,,True,s1,,,,,,,0.687518716,,Terramind,16 (Terramind),,,,i5myxc6c,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.818610787,0.91335243
+,,FAST-EO,linear,,True,s1,,,,,,,0.618145883,,Terramind,16 (Terramind),,,,md9f4wkd,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.778794467,0.895464182
+,,FAST-EO,linear,,False,s1,,,,,,,0.597324967,,Terramind,16 (Terramind),,,,t6e4f2h0,,,kiiz30ls,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.764205933,0.882314086
+,,FAST-EO,upernet,,False,s1+s2+dem,,,,,,,0.756587565,,Terramind,16 (Terramind),,,,juyzuzc0,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.807119608,0.826501608
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.762024105,,Terramind,16 (Terramind),,,,82zqtyxs,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.806149364,0.822999179
+,,FAST-EO,upernet,,False,s2,,,,,,,0.755702555,,Terramind,16 (Terramind),,,,2x8cvjc9,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.801921785,0.819813132
+,,FAST-EO,upernet,,True,s1+s2+dem,,,,,,,0.763205528,,Terramind,16 (Terramind),,,,65rz9wcx,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.79905951,0.812996387
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.762655377,,Terramind,16 (Terramind),,,,i2w2lrfw,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.798036695,0.811841249
+,,FAST-EO,upernet,,True,s2,,,,,,,0.76290822,,Terramind,16 (Terramind),,,,n7ysrmcx,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.796759486,0.809918761
+,,FAST-EO,linear,,False,s2,,,,,,,0.749129057,,Terramind,16 (Terramind),,,,il5eqkvx,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.794969738,0.812490404
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.745102644,,Terramind,16 (Terramind),,,,ijsjf7r5,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.792777419,0.811089993
+,,FAST-EO,linear,,False,s1+s2+dem,,,,,,,0.707273066,,Terramind,16 (Terramind),,,,jwrzepk2,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.780605555,0.808548093
+,,FAST-EO,upernet,,False,s1,,,,,,,0.743881524,,Terramind,16 (Terramind),,,,izn8euqe,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.753136694,0.756829381
+,,FAST-EO,upernet,,True,s1,,,,,,,0.749564409,,Terramind,16 (Terramind),,,,74msgnef,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.741374671,0.738575637
+,,FAST-EO,linear,,False,s1,,,,,,,0.712471426,,Terramind,16 (Terramind),,,,msjidxb5,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.734416246,0.743363082
+,,FAST-EO,linear,,True,s2,,,,,,,0.66504544,,Terramind,16 (Terramind),,,,u6ttuljh,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.691366673,0.701651156
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.658787012,,Terramind,16 (Terramind),,,,2hv7e9vk,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.68674159,0.697642446
+,,FAST-EO,linear,,True,s1+s2+dem,,,,,,,0.64747709,,Terramind,16 (Terramind),,,,62qpeb9h,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.674279451,0.684583783
+,,FAST-EO,linear,,True,s1,,,,,,,0.639029503,,Terramind,16 (Terramind),,,,28ye271n,,,rvj07fqc,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.634422779,0.634121895
+,,FAST-EO,linear,,False,s2,,,,,,,0.728990197,,Thor,8,,,,oecs7zf2,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.846229494,0.935616255
+,,FAST-EO,linear,,False,s2,,,,,,,0.727263629,,Thor,4,,,,0pvyoxjh,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.84491998,0.934183717
+,,FAST-EO,upernet,,True,s2,,,,,,,0.701168299,,Thor,4,,,,umlq3rsk,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.830405354,0.928888559
+,,FAST-EO,upernet,,False,s2,,,,,,,0.698660374,,Thor,8,,,,30tzsx2i,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.829174161,0.928889036
+,,FAST-EO,upernet,,True,s2,,,,,,,0.698529243,,Thor,8,,,,4ogshnud,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.828873158,0.928153515
+,,FAST-EO,upernet,,False,s2,,,,,,,0.695693851,,Thor,4,,,,9srpd3nr,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.828061819,0.929966271
+,,FAST-EO,linear,,False,s2,,,,,,,0.674312651,,Thor,16,,,,wgcw533t,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.814587593,0.920713305
+,,FAST-EO,upernet,,False,s2,,,,,,,0.671821177,,Thor,16,,,,h9fo67fa,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.814242721,0.92343843
+,,FAST-EO,upernet,,True,s2,,,,,,,0.657946587,,Thor,16,,,,l9dwow3p,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.80582583,0.918447673
+,,FAST-EO,linear,,True,s2,,,,,,,0.6098876,,Thor,4,,,,ibw8aesj,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.776338816,0.900213659
+,,FAST-EO,linear,,True,s2,,,,,,,0.607504487,,Thor,8,,,,vvuurpgz,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.774798512,0.899075091
+,,FAST-EO,upernet,,False,s2,,,,,,,0.602228045,,Thor,32,,,,7dzp0jvv,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.77359736,0.903310657
+,,FAST-EO,upernet,,True,s2,,,,,,,0.597211838,,Thor,32,,,,p5pksahk,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.771201134,0.903510571
+,,FAST-EO,linear,,True,s2,,,,,,,0.592039227,,Thor,16,,,,7awv2998,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.765651286,0.894267976
+,,FAST-EO,linear,,False,s2,,,,,,,0.585422933,,Thor,32,,,,cvlm3ru5,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.763109446,0.896388352
+,,FAST-EO,linear,,True,s2,,,,,,,0.532522857,,Thor,32,,,,apk178xk,,,kejggbth,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.730807781,0.876862764
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.796513796,,Thor,4,,,,9ulqpxj8,,,kadhr6o2,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.820216715,0.829422414
+,,FAST-EO,upernet,,True,s2,,,,,,,0.792315543,,Thor,4,,,,xxyt2xt4,,,kadhr6o2,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.816164017,0.825547934
+,,FAST-EO,linear,,True,s2,,,,,,,0.723985195,,Thor,4,,,,pbg6hfib,,,kadhr6o2,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.751885712,0.762834191
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.719512582,,Thor,4,,,,advk6tlk,,,kadhr6o2,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.746275902,0.75699228
+,,FAST-EO,upernet,,True,s1,,,,,,,0.65754205,,Thor,4,,,,m6lhfv4k,,,kadhr6o2,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.622322142,0.608736336
+,,FAST-EO,linear,,True,s1,,,,,,,0.59719938,,Thor,4,,,,u5w0g71x,,,kadhr6o2,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.368044198,0.357793361
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.78882885,,Thor,4,,,,xhtzaa3e,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.817390919,0.828502893
+,,FAST-EO,upernet,,False,s2,,,,,,,0.788381934,,Thor,4,,,,uis90tev,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.815752983,0.826462805
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.794331014,,Thor,4,,,,c8tflslb,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.813776433,0.821579218
+,,FAST-EO,upernet,,True,s2,,,,,,,0.792786896,,Thor,4,,,,oss3j2o9,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.812280774,0.81999284
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.764594197,,Thor,4,,,,sgiaiieg,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.791376948,0.801733017
+,,FAST-EO,linear,,False,s2,,,,,,,0.759515345,,Thor,4,,,,idcmdlu1,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.789581776,0.801122129
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.769238472,,Thor,8,,,,mj0yo04e,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.7880162,0.795466721
+,,FAST-EO,upernet,,False,s2,,,,,,,0.758703291,,Thor,8,,,,igyaodgq,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.78493607,0.794977367
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.752756655,,Thor,8,,,,vxp87hhk,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.782339573,0.793710887
+,,FAST-EO,upernet,,True,s2,,,,,,,0.758711934,,Thor,8,,,,0f990xlt,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.780387163,0.789159298
+,,FAST-EO,linear,,False,s2,,,,,,,0.710713744,,Thor,8,,,,eg0esevg,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.752511799,0.768536508
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.712301612,,Thor,16,,,,yjmlaasl,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.741723776,0.753282368
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.682141125,,Thor,8,,,,3i3phg85,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.741220117,0.763991475
+,,FAST-EO,upernet,,True,s1,,,,,,,0.7347036,,Thor,4,,,,aiep46n1,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.73733592,0.738733053
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.707699955,,Thor,16,,,,34vvsrqq,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.736256659,0.747641981
+,,FAST-EO,upernet,,False,s1,,,,,,,0.729150951,,Thor,4,,,,s6aggc9m,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.732533693,0.734269857
+,,FAST-EO,linear,,True,s2,,,,,,,0.698168755,,Thor,4,,,,t81aiyxe,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.721879423,0.731351972
+,,FAST-EO,upernet,,True,s1,,,,,,,0.717216372,,Thor,8,,,,iiwtzs,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.721813679,0.724186897
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.701923668,,Thor,4,,,,3yebo2ho,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.719807446,0.726978481
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.693435907,,Thor,8,,,,wjykrqsm,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.716094911,0.724952102
+,,FAST-EO,upernet,,False,s1,,,,,,,0.709358156,,Thor,8,,,,qxgpvgen,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.713973343,0.716228187
+,,FAST-EO,linear,,True,s2,,,,,,,0.676449478,,Thor,8,,,,e2jsj3fm,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.71276772,0.727088392
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.659781277,,Thor,16,,,,nxb9gp00,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.710265398,0.729810119
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.656503022,,Thor,16,,,,2aubj41j,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.690605819,0.703995347
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.62383604,,Thor,32,,,,iiajt7cc,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.678820848,0.700442553
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.616013944,,Thor,32,,,,bmqv1d2d,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.67546767,0.698744357
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.60502696,,Thor,32,,,,r1awz5jp,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.665596128,0.688942909
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.566785216,,Thor,32,,,,zpukclk5,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.637317359,0.664850712
+,,FAST-EO,linear,,False,s1,,,,,,,0.608101845,,Thor,8,,,,7vm43j22,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.484219372,0.440582305
+,,FAST-EO,linear,,False,s1,,,,,,,0.588807344,,Thor,4,,,,o6nf0vaq,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.481294096,0.448204547
+,,FAST-EO,linear,,True,s1,,,,,,,0.607137859,,Thor,8,,,,8e2n74zs,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.445866436,0.425556928
+,,FAST-EO,linear,,True,s1,,,,,,,0.592800558,,Thor,4,,,,qqsr5z5i,,,owc8zfzm,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.414098144,0.396111667
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.758912623,,Thor,8,,,,2l5ysvxu,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.787358642,0.798367262
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.758751214,,Thor,8,,,,zqk8clnf,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.78720057,0.798223734
+,,FAST-EO,upernet,,True,s2,,,,,,,0.766231,,Thor,8,,,,f8algux1,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.785242319,0.79249084
+,,FAST-EO,upernet,,False,s2,,,,,,,0.746777833,,Thor,8,,,,5tjrx9jf,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.783758044,0.798054278
+,,FAST-EO,linear,,False,s2,,,,,,,0.735628426,,Thor,8,,,,qki3vdwf,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.76424104,0.775247335
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.731984377,,Thor,8,,,,sicn9ceb,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.763676226,0.776210666
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.708544195,,Thor,16,,,,uegflgkd,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.73928231,0.75135833
+,,FAST-EO,linear,,True,s2,,,,,,,0.704661906,,Thor,8,,,,dx6tzqlk,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.736055136,0.748399556
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.702670634,,Thor,16,,,,wtu1j4sh,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.733774543,0.745757937
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.704923332,,Thor,8,,,,5purxewc,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.731222928,0.741592824
+,,FAST-EO,upernet,,True,s1,,,,,,,0.721771598,,Thor,8,,,,3awxzr1d,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.72733885,0.729986072
+,,FAST-EO,upernet,,False,s1,,,,,,,0.717321634,,Thor,8,,,,abiixpy3,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.722876847,0.725759149
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.648277104,,Thor,16,,,,bd3gya1c,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.705556035,0.72776854
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.6662848,,Thor,16,,,,mp9tbs44,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.703178108,0.717496514
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.600545526,,Thor,32,,,,9e0fmndv,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.671579361,0.699437559
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.57322669,,Thor,32,,,,lpa3pdvi,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.658719003,0.691961229
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.575051427,,Thor,32,,,,w56xitr2,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.652762949,0.683578908
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.580315888,,Thor,32,,,,hx1jb2h0,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.649398625,0.676225364
+,,FAST-EO,linear,,False,s1,,,,,,,0.630388558,,Thor,8,,,,jyt7zs4r,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.586012363,0.5698331
+,,FAST-EO,linear,,True,s1,,,,,,,0.614828885,,Thor,8,,,,7xbokexe,,,0zlfudgs,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.43867898,0.377103835
+,,FAST-EO,upernet,,True,s2,,,,,,,0.71157,,Thor,4,,,,gtqqkz0m,,,02gxvjjq,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.83657,0.93217
+,,FAST-EO,linear,,True,s2,,,,,,,0.60649,,Thor,4,,,,ezg72g23,,,02gxvjjq,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.77583,0.90376
+,,FAST-EO,upernet,,True,s2,,,,,,,0.83785063,,Thor,4,,,,w3eiphcu,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.906901419,0.958116055
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.82951659,,Thor,4,,,,wmpjnvsl,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.902076125,0.955841124
+,,FAST-EO,upernet,,True,s2,,,,,,,0.828655243,,Thor,4,,,,k31gz43p,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.901525974,0.955450296
+,,FAST-EO,linear,,True,s2,,,,,,,0.820457757,,Thor,4,,,,7c3waog0,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.896553278,0.952529192
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.811601043,,Thor,4,,,,jpl1rvgn,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.891504049,0.95034945
+,,FAST-EO,linear,,True,s2,,,,,,,0.798819661,,Thor,4,,,,2752pjie,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.884053588,0.94671011
+,,FAST-EO,upernet,,True,s1,,,,,,,0.658493996,,Thor,4,,,,xybk2wqh,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.801672578,0.905037582
+,,FAST-EO,upernet,,True,s1,,,,,,,0.651733875,,Thor,4,,,,wfni7iec,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.79727304,0.901756644
+,,FAST-EO,linear,,True,s1,,,,,,,0.641983628,,Thor,4,,,,ls7qn3tc,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.792262375,0.900974929
+,,FAST-EO,linear,,True,s1,,,,,,,0.608456969,,Thor,4,,,,6jrlifqx,,,fx97lc30,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.772461414,0.890672147
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.83327,,Thor,4,,,,n9ffcajs,,,ve91j6pp,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.90395,0.95597
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.83026,,Thor,4,,,,bs4bi4v6,,,ve91j6pp,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.90246,0.95592
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.82108,,Thor,4,,,,68c7s7n8,,,ve91j6pp,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.89708,0.95321
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.772099733,,Thor,4,,,,rr9jadty,,,ve91j6pp,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.868823707,0.940144002
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.792682886,,Thor,4,,,,jsg36grp,,,w08z3bdf,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.820742249,0.831598401
+,,FAST-EO,upernet,,False,s2,,,,,,,0.792755783,,Thor,4,,,,zojb8uo1,,,w08z3bdf,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.819070935,0.829096794
+,,FAST-EO,linear,,False,s2,,,,,,,0.758057654,,Thor,4,,,,95mpaauj,,,t73479sy,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.802864313,0.820009589
+,,FAST-EO,linear,,False,all,,,,,,,0.755783081,,Thor,4,,,,1unqg2jk,,,t73479sy,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.798880339,0.815678418
+,,FAST-EO,upernet,,False,s1,,,,,,,0.738003075,,Thor,4,,,,vnyx01qj,,,t73479sy,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.741359055,0.743201315
+,,FAST-EO,linear,,False,s1,,,,,,,0.626183331,,Thor,4,,,,s9zxwm8l,,,t73479sy,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,base,0.590577245,0.582951427
+,,FAST-EO,linear,,False,s2,,,,,,,0.747386098,,Thor,4,,,,pgpzq8f5,,,7heyo7kh,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.857078433,0.941267192
+,,FAST-EO,upernet,,False,s2,,,,,,,0.760796607,,Thor,4,,,,kfpm44q8,,,7heyo7kh,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.864504099,0.943880975
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.82184118,,Terramind,16 (Terramind),,,,l79ysfyq,0.5,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.897414863,0.953089356
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.816529989,,Terramind,16 (Terramind),,,,vgo91owe,0.5,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.894200444,0.951220453
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.805775702,,Terramind,16 (Terramind),,,,ovbphiod,0.5,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.888249755,0.949117303
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.803953648,,Terramind,16 (Terramind),,,,dmdzt2o1,0.25,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.887044072,0.948165417
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.803150952,,Terramind,16 (Terramind),,,,m5bqk53u,0.25,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.886392772,0.94738549
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.802892089,,Terramind,16 (Terramind),,,,6x9bf5fa,0.25,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.88635534,0.947652698
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.764782727,,Terramind,16 (Terramind),,,,sqvbyvg9,0.1,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.863991261,0.936356664
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.761162639,,Terramind,16 (Terramind),,,,fl4zd90q,0.1,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.861375451,0.933820188
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.745554209,,Terramind,16 (Terramind),,,,xzqwp9gm,0.1,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.851773739,0.927891016
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.74023664,,Terramind,16 (Terramind),,,,p710nkkj,0.05,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.849330664,0.92832154
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.737869143,,Terramind,16 (Terramind),,,,cmyul503,0.1,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.848090291,0.928063571
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.711649001,,Terramind,16 (Terramind),,,,ia8k4lar,0.25,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.83340323,0.922385097
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.71085602,,Terramind,16 (Terramind),,,,kuklsfux,0.05,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.832668602,0.921344757
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.710168242,,Terramind,16 (Terramind),,,,wvqvvsr6,0.1,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.83060658,0.91623795
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.699688375,,Terramind,16 (Terramind),,,,yuwbgxn6,0.1,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.827252388,0.921450794
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.69776988,,Terramind,16 (Terramind),,,,b641ri1r,0.05,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.824043155,0.914661586
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.690620542,,Terramind,16 (Terramind),,,,ej92x6hr,0.5,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.821395159,0.917148411
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.691608787,,Terramind,16 (Terramind),,,,w8m03dga,0.05,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.820469081,0.912960172
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.684257209,,Terramind,16 (Terramind),,,,3cdbxggw,0.1,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.815449953,0.90871197
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.67935276,,Terramind,16 (Terramind),,,,yoirkrpj,0.05,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.811360002,0.903736413
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.677115142,,Terramind,16 (Terramind),,,,7hgu32da,0.05,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.810330391,0.903894782
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.656129539,,Terramind,16 (Terramind),,,,238h8t7z,0.05,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.798998713,0.90054822
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.644747198,,Terramind,16 (Terramind),,,,ky3g76zo,0.5,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.794817626,0.904579222
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.635990679,,Terramind,16 (Terramind),,,,rc1randz,0.05,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.789049387,0.900103688
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.631840408,,Terramind,16 (Terramind),,,,5sa14y9m,0.5,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.786999643,0.900024831
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.612101912,,Terramind,16 (Terramind),,,,n1dm072b,0.05,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.774815917,0.892390192
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.599422097,,Terramind,16 (Terramind),,,,582qqi9f,0.25,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.768734276,0.892689645
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.597925127,,Terramind,16 (Terramind),,,,cwau4k3q,0.1,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.768097401,0.892971396
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.57135874,,Terramind,16 (Terramind),,,,bdh3wta0,0.25,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.753795505,0.888980687
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.498694748,,Terramind,16 (Terramind),,,,wlbyltrp,0.1,0.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.712957382,0.872893572
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.475790709,,Terramind,16 (Terramind),,,,l592usym,0.1,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.700826943,0.870097935
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.388616115,,Terramind,16 (Terramind),,,,uugq465h,0.05,1.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.649348795,0.843220949
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.297391057,,Terramind,16 (Terramind),,,,hcjk4gs0,0.05,2.0,i0qs7c1z,Segmentation,LULC,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.600013793,0.828972936
+,,FAST-EO,linear,,False,s2,,,,,,,0.711829603,,Terramind,16 (Terramind),,,,7pcudile,0.5,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.83608067,0.930262983
+,,FAST-EO,linear,,False,s2,,,,,,,0.724908173,,Terramind,16 (Terramind),,,,erawlcn3,0.5,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.84392786,0.93469137
+,,FAST-EO,linear,,False,s2,,,,,,,0.714174092,,Terramind,16 (Terramind),,,,foi7p6nz,0.5,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.837540627,0.931221128
+,,FAST-EO,linear,,False,s2,,,,,,,0.678714275,,Terramind,16 (Terramind),,,,xm5pub1r,0.25,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.816509008,0.91998744
+,,FAST-EO,linear,,False,s2,,,,,,,0.695501685,,Terramind,16 (Terramind),,,,3o46w0dz,0.25,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.82663089,0.925811589
+,,FAST-EO,linear,,False,s2,,,,,,,0.68011874,,Terramind,16 (Terramind),,,,4ke53ka6,0.25,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.817790627,0.921811223
+,,FAST-EO,linear,,False,s2,,,,,,,0.603454053,,Terramind,16 (Terramind),,,,1pmhipfr,0.1,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.7701931,0.891172469
+,,FAST-EO,linear,,False,s2,,,,,,,0.650545716,,Terramind,16 (Terramind),,,,cyynjwzy,0.1,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.801588297,0.916570604
+,,FAST-EO,linear,,False,s2,,,,,,,0.644183338,,Terramind,16 (Terramind),,,,oicrqaag,0.1,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.796645403,0.910951614
+,,FAST-EO,linear,,False,s2,,,,,,,0.612056851,,Terramind,16 (Terramind),,,,dz82ulrb,0.05,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.778832853,0.904594004
+,,FAST-EO,linear,,False,s2,,,,,,,0.552337825,,Terramind,16 (Terramind),,,,7u3gm3ne,0.05,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.739492416,0.873948395
+,,FAST-EO,linear,,False,s2,,,,,,,0.611965716,,Terramind,16 (Terramind),,,,yocym2xc,0.05,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.777869701,0.901779354
+,,FAST-EO,linear,,True,s2,,,,,,,0.472789913,,Terramind,16 (Terramind),,,,p316zurd,0.5,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.695204496,0.857504249
+,,FAST-EO,linear,,True,s2,,,,,,,0.488966584,,Terramind,16 (Terramind),,,,acw7kd6l,0.5,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.704435885,0.861515284
+,,FAST-EO,linear,,True,s2,,,,,,,0.428953677,,Terramind,16 (Terramind),,,,hif1mnd9,0.5,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.664820731,0.830801308
+,,FAST-EO,linear,,True,s2,,,,,,,0.403790653,,Terramind,16 (Terramind),,,,yh8j12qw,0.25,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.651195168,0.826677382
+,,FAST-EO,linear,,True,s2,,,,,,,0.479052782,,Terramind,16 (Terramind),,,,2k52r3u0,0.25,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.700309753,0.863660634
+,,FAST-EO,linear,,True,s2,,,,,,,0.398770064,,Terramind,16 (Terramind),,,,m8utuddm,0.25,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.646610856,0.820427895
+,,FAST-EO,linear,,True,s2,,,,,,,0.35593015,,Terramind,16 (Terramind),,,,m20dpd8q,0.1,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.623797953,0.814528286
+,,FAST-EO,linear,,True,s2,,,,,,,0.399468035,,Terramind,16 (Terramind),,,,8o6u9l4r,0.1,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.653128028,0.83862406
+,,FAST-EO,linear,,True,s2,,,,,,,0.356522053,,Terramind,16 (Terramind),,,,nzrfb41s,0.1,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.614887893,0.788221598
+,,FAST-EO,linear,,True,s2,,,,,,,0.312687606,,Terramind,16 (Terramind),,,,3r803i8j,0.05,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.590949178,0.78023988
+,,FAST-EO,linear,,True,s2,,,,,,,0.249280423,,Terramind,16 (Terramind),,,,lg1thx6n,0.05,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.572587132,0.817145109
+,,FAST-EO,linear,,True,s2,,,,,,,0.330109447,,Terramind,16 (Terramind),,,,pvohutj5,0.05,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.612922311,0.81955564
+,,FAST-EO,upernet,,False,s2,,,,,,,0.772801638,,Terramind,16 (Terramind),,,,ixdn4hda,0.5,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.871746004,0.948078811
+,,FAST-EO,upernet,,False,s2,,,,,,,0.753608584,,Terramind,16 (Terramind),,,,bxfulpgj,0.5,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.860389352,0.942060232
+,,FAST-EO,upernet,,False,s2,,,,,,,0.742361784,,Terramind,16 (Terramind),,,,mrgtmypz,0.5,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.853792667,0.938719034
+,,FAST-EO,upernet,,False,s2,,,,,,,0.704576552,,Terramind,16 (Terramind),,,,ldv3btp1,0.25,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.831681013,0.927662849
+,,FAST-EO,upernet,,False,s2,,,,,,,0.727898657,,Terramind,16 (Terramind),,,,pk1m7jy7,0.25,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.845457196,0.934882164
+,,FAST-EO,upernet,,False,s2,,,,,,,0.732645273,,Terramind,16 (Terramind),,,,73psfm7a,0.25,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.848187327,0.936124384
+,,FAST-EO,upernet,,False,s2,,,,,,,0.6363585,,Terramind,16 (Terramind),,,,gs9rfr6n,0.1,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.792945385,0.911365509
+,,FAST-EO,upernet,,False,s2,,,,,,,0.634468079,,Terramind,16 (Terramind),,,,zndw6myq,0.1,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.793109596,0.914754391
+,,FAST-EO,upernet,,False,s2,,,,,,,0.682828605,,Terramind,16 (Terramind),,,,71v24vol,0.1,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.820519209,0.926150084
+,,FAST-EO,upernet,,False,s2,,,,,,,0.568728983,,Terramind,16 (Terramind),,,,kazg5ks1,0.05,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.751631439,0.886323571
+,,FAST-EO,upernet,,False,s2,,,,,,,0.583011985,,Terramind,16 (Terramind),,,,opdtf2uq,0.05,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.762594223,0.898436666
+,,FAST-EO,upernet,,False,s2,,,,,,,0.566496491,,Terramind,16 (Terramind),,,,sbikodyw,0.05,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.753253162,0.894604623
+,,FAST-EO,upernet,,True,s2,,,,,,,0.680871546,,Terramind,16 (Terramind),,,,ase39r0f,0.5,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.819084525,0.924674451
+,,FAST-EO,upernet,,True,s2,,,,,,,0.676393807,,Terramind,16 (Terramind),,,,getlxyyw,0.5,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.815979064,0.921858609
+,,FAST-EO,upernet,,True,s2,,,,,,,0.667130828,,Terramind,16 (Terramind),,,,bl0xnhxe,0.5,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.810186803,0.91800338
+,,FAST-EO,upernet,,True,s2,,,,,,,0.648683965,,Terramind,16 (Terramind),,,,zurg866f,0.25,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.801030755,0.917679608
+,,FAST-EO,upernet,,True,s2,,,,,,,0.674068153,,Terramind,16 (Terramind),,,,aefs3ihl,0.25,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.81449616,0.920801461
+,,FAST-EO,upernet,,True,s2,,,,,,,0.657669365,,Terramind,16 (Terramind),,,,9si71d7b,0.25,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.806146502,0.919868708
+,,FAST-EO,upernet,,True,s2,,,,,,,0.607152998,,Terramind,16 (Terramind),,,,374pfc8k,0.1,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.775340557,0.901251495
+,,FAST-EO,upernet,,True,s2,,,,,,,0.627290308,,Terramind,16 (Terramind),,,,mf97y9b2,0.1,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.789140999,0.913374007
+,,FAST-EO,upernet,,True,s2,,,,,,,0.59845525,,Terramind,16 (Terramind),,,,gyzrjwq6,0.1,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.771085978,0.901271701
+,,FAST-EO,upernet,,True,s2,,,,,,,0.563694894,,Terramind,16 (Terramind),,,,nhwcxzgt,0.05,2.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.748932838,0.885601759
+,,FAST-EO,upernet,,True,s2,,,,,,,0.586462736,,Terramind,16 (Terramind),,,,cv61gufv,0.05,1.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.76560545,0.902520359
+,,FAST-EO,upernet,,True,s2,,,,,,,0.548952222,,Terramind,16 (Terramind),,,,wz2q14fh,0.05,0.0,ut0rlwzm,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.741982579,0.886394262
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.69343394,,Terramind,16 (Terramind),,,,nj0pal74,0.5,2.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.820218086,0.909627497
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.697360814,,Terramind,16 (Terramind),,,,j3zicm4s,0.5,1.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.82313621,0.912580431
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.695819318,,Terramind,16 (Terramind),,,,ji69npo8,0.5,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.822123408,0.911807597
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.680233121,,Terramind,16 (Terramind),,,,28abgfjg,0.25,2.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.811355829,0.902496517
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.668519199,,Terramind,16 (Terramind),,,,yp9cp6j2,0.25,1.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.805164218,0.900997937
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.693885565,,Terramind,16 (Terramind),,,,x1lzyxqh,0.25,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.82042861,0.909602582
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.672065318,,Terramind,16 (Terramind),,,,w741gu9m,0.1,2.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.806361556,0.899501622
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.694026947,,Terramind,16 (Terramind),,,,yd2y4ku6,0.1,1.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.822019219,0.914062858
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.670556307,,Terramind,16 (Terramind),,,,2am45it3,0.1,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.805562258,0.899302304
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.376700431,,Terramind,16 (Terramind),,,,7zswwhb5,0.05,2.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.586361408,0.692632318
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.442974567,,Terramind,16 (Terramind),,,,s6vjjpuu,0.05,1.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.643705368,0.756793857
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.343821883,,Terramind,16 (Terramind),,,,w6qjs9yg,0.05,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.555984735,0.657362044
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.134673715,,Terramind,16 (Terramind),,,,czmdc58u,0.05,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.254425287,0.273659348
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.71720618,,Terramind,16 (Terramind),,,,896fnjoz,0.1,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.836463928,0.923432052
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.81760478,,Terramind,16 (Terramind),,,,ieff5a05,0.5,2.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.894720018,0.951205254
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.811888397,,Terramind,16 (Terramind),,,,lecde9pq,0.5,1.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.891760111,0.950698495
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.811125398,,Terramind,16 (Terramind),,,,03pwzpce,0.5,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.891370773,0.950648546
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.803660274,,Terramind,16 (Terramind),,,,ns0gl1fj,0.25,2.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.886468887,0.946868718
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.780044138,,Terramind,16 (Terramind),,,,6rjpegp7,0.25,1.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.87292552,0.940814495
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.728226364,,Terramind,16 (Terramind),,,,r2nquh98,0.25,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.84382838,0.929399729
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.744329274,,Terramind,16 (Terramind),,,,y2mldzg1,0.1,2.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.852353394,0.931388021
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.756154597,,Terramind,16 (Terramind),,,,9pg3c8zc,0.1,1.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.859113812,0.934356213
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.705197811,,Terramind,16 (Terramind),,,,4bfug05i,0.1,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.829390168,0.919793606
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.679099619,,Terramind,16 (Terramind),,,,d97xh17o,0.05,2.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.812845588,0.908424437
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.732789338,,Terramind,16 (Terramind),,,,cdif0yls,0.05,1.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.846355915,0.930298984
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.684389293,,Terramind,16 (Terramind),,,,gr9c6x97,0.05,0.0,ut0rlwzm,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.814724624,0.90641135
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.805330992,,Terramind,16 (Terramind),,,,wt8row1x,0.5,2.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.887708426,0.94814074
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.824296772,,Terramind,16 (Terramind),,,,sc8xuxsd,0.5,1.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.898685813,0.953305364
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.798877835,,Terramind,16 (Terramind),,,,xihcvyer,0.5,0.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.883964896,0.946358263
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.785650671,,Terramind,16 (Terramind),,,,xmu7hv1n,0.25,2.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.875566363,0.94053936
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.774779022,,Terramind,16 (Terramind),,,,tcgo2p0x,0.25,1.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.869404435,0.937966883
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.721251667,,Terramind,16 (Terramind),,,,de7k17e1,0.25,0.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.838427663,0.923406243
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.705321431,,Terramind,16 (Terramind),,,,yzmh5z3t,0.1,2.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.827751517,0.914772034
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.719980121,,Terramind,16 (Terramind),,,,saa9j9vr,0.1,1.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.83774972,0.923233032
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.736535609,,Terramind,16 (Terramind),,,,i4nsvaln,0.1,0.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.846454203,0.925141454
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.655887425,,Terramind,16 (Terramind),,,,xi0wwf8h,0.05,2.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.797216415,0.895714998
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.709913909,,Terramind,16 (Terramind),,,,5mn8c8ad,0.05,1.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.831819177,0.920181692
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.652290523,,Terramind,16 (Terramind),,,,icjlbruj,0.05,0.0,dmqmfkcg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.795552135,0.895939112
+,,FAST-EO,upernet,,True,s2,,,,,,,0.828397036,,Thor,4,,,,eqkrkuqc,0.25,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.901239991,0.954967022
+,,FAST-EO,upernet,,True,s2,,,,,,,0.816156685,,Thor,4,,,,35jgxd6h,0.5,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.894345403,0.952208042
+,,FAST-EO,upernet,,True,s2,,,,,,,0.816192508,,Thor,4,,,,kx1lnv1g,0.25,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.894167364,0.95161736
+,,FAST-EO,upernet,,True,s2,,,,,,,0.813474119,,Thor,4,,,,ik1cni9j,0.5,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.89283812,0.951615036
+,,FAST-EO,upernet,,True,s2,,,,,,,0.807196498,,Thor,4,,,,yc2elzx9,0.5,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.888917565,0.949038088
+,,FAST-EO,upernet,,True,s2,,,,,,,0.805803478,,Thor,4,,,,h4f2g24m,0.1,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.887640476,0.947246373
+,,FAST-EO,upernet,,True,s2,,,,,,,0.801874042,,Thor,4,,,,w3p6h2kh,0.1,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.885574579,0.946800172
+,,FAST-EO,upernet,,True,s2,,,,,,,0.797559977,,Thor,4,,,,81dwl8dy,0.05,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.882889092,0.945061445
+,,FAST-EO,upernet,,True,s2,,,,,,,0.790287733,,Thor,4,,,,kk32bia6,0.1,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.879065156,0.944235921
+,,FAST-EO,upernet,,True,s2,,,,,,,0.776590407,,Thor,4,,,,ls1hgfbg,0.05,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.870155573,0.937578201
+,,FAST-EO,upernet,,True,s2,,,,,,,0.764694989,,Thor,16,,,,wldtgq81,0.25,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.863837063,0.936023831
+,,FAST-EO,upernet,,True,s2,,,,,,,0.762137651,,Thor,16,,,,v65xvimy,0.5,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.862844348,0.93678838
+,,FAST-EO,upernet,,True,s2,,,,,,,0.762000799,,Thor,16,,,,hnbfh8as,0.5,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.862415195,0.935701311
+,,FAST-EO,upernet,,True,s2,,,,,,,0.750917137,,Thor,16,,,,9al9qsbx,0.5,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.856581211,0.934429526
+,,FAST-EO,upernet,,True,s2,,,,,,,0.741986871,,Thor,4,,,,qi2w9tvx,0.25,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.851731002,0.932960272
+,,FAST-EO,linear,,True,s2,,,,,,,0.739807427,,Thor,16,,,,1dsvug54,0.5,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.849019229,0.928017437
+,,FAST-EO,linear,,True,s2,,,,,,,0.739816844,,Thor,16,,,,zcujanaj,0.25,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.848956108,0.927816391
+,,FAST-EO,upernet,,True,s2,,,,,,,0.736840844,,Thor,16,,,,6msk50dv,0.25,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.848488927,0.930762172
+,,FAST-EO,upernet,,True,s2,,,,,,,0.735416949,,Thor,16,,,,3somdc0q,0.05,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.847226322,0.929055333
+,,FAST-EO,linear,,True,s2,,,,,,,0.734774053,,Thor,16,,,,bifob80r,0.5,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.846131742,0.92672348
+,,FAST-EO,upernet,,True,s2,,,,,,,0.731189549,,Thor,16,,,,qmftyych,0.25,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.84451437,0.927110374
+,,FAST-EO,upernet,,True,s2,,,,,,,0.729033828,,Thor,16,,,,reb8z9r1,0.1,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.843126535,0.926105082
+,,FAST-EO,linear,,True,s2,,,,,,,0.723293245,,Thor,16,,,,217vytau,0.25,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.839093566,0.922432005
+,,FAST-EO,upernet,,True,s2,,,,,,,0.721524119,,Thor,16,,,,pmxglxca,0.1,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.83864975,0.923672199
+,,FAST-EO,linear,,True,s2,,,,,,,0.720070362,,Thor,4,,,,26o5v7cr,0.5,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.838279843,0.924685061
+,,FAST-EO,upernet,,True,s2,,,,,,,0.720687449,,Thor,4,,,,ror9pvfq,0.05,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.837855458,0.922522724
+,,FAST-EO,upernet,,True,s2,,,,,,,0.720930934,,Thor,16,,,,qiju5yqa,0.1,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.836342573,0.917731106
+,,FAST-EO,linear,,True,s2,,,,,,,0.712944746,,Thor,16,,,,ee9nzfus,0.1,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.833754957,0.921547532
+,,FAST-EO,linear,,True,s2,,,,,,,0.712228954,,Thor,16,,,,4muf3si3,0.1,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.832690835,0.919422925
+,,FAST-EO,linear,,True,s2,,,,,,,0.711131513,,Thor,16,,,,gskcxvak,0.1,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.832635105,0.920844257
+,,FAST-EO,linear,,True,s2,,,,,,,0.70916301,,Thor,16,,,,qjzu8rok,0.25,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.831781924,0.921162426
+,,FAST-EO,linear,,True,s2,,,,,,,0.709028423,,Thor,4,,,,xthwb5ak,0.25,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.831422031,0.920284152
+,,FAST-EO,upernet,,True,s2,,,,,,,0.708034813,,Thor,16,,,,x412sdl5,0.05,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.830989718,0.920439422
+,,FAST-EO,linear,,True,s2,,,,,,,0.700655043,,Thor,4,,,,wcjg9dyb,0.1,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.826597214,0.918068886
+,,FAST-EO,linear,,True,s2,,,,,,,0.700206578,,Thor,16,,,,r8qxzl4d,0.5,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.826333284,0.917933583
+,,FAST-EO,linear,,True,s2,,,,,,,0.695690393,,Thor,4,,,,tzyre0gq,0.1,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.823817611,0.916997194
+,,FAST-EO,linear,,True,s2,,,,,,,0.690409303,,Thor,4,,,,ha5qjwqs,0.5,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.821423531,0.917543292
+,,FAST-EO,linear,,True,s2,,,,,,,0.680459499,,Thor,16,,,,d8caqrkz,0.05,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.815614462,0.914683223
+,,FAST-EO,linear,,True,s2,,,,,,,0.668626428,,Thor,4,,,,mwlprd3f,0.25,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.808161974,0.909654498
+,,FAST-EO,upernet,,True,s2,,,,,,,0.67208755,,Thor,16,,,,ehc0al96,0.05,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.807913423,0.903957069
+,,FAST-EO,linear,,True,s2,,,,,,,0.662893355,,Thor,4,,,,6gbv90ct,0.25,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.805637598,0.910472274
+,,FAST-EO,linear,,True,s2,,,,,,,0.659717023,,Thor,4,,,,0u60fzqp,0.5,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.803922176,0.909977615
+,,FAST-EO,linear,,True,s2,,,,,,,0.653326035,,Thor,16,,,,lmd1n87x,0.05,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.798053741,0.901774824
+,,FAST-EO,linear,,True,s2,,,,,,,0.633992076,,Thor,16,,,,ys27w2l1,0.05,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.789041281,0.902998447
+,,FAST-EO,linear,,True,s2,,,,,,,0.628910899,,Thor,4,,,,tnmccyzd,0.1,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.783362389,0.893478155
+,,FAST-EO,linear,,True,s2,,,,,,,0.561610997,,Thor,4,,,,qbm4m5hb,0.05,0.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.741844893,0.867677212
+,,FAST-EO,linear,,True,s2,,,,,,,0.535530329,,Thor,4,,,,8pku4tcp,0.05,2.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.726760685,0.860595942
+,,FAST-EO,linear,,True,s2,,,,,,,0.344646752,,Thor,4,,,,m6ljzizl,0.05,1.0,ob1omc9m,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.583961964,0.72162199
+,,FAST-EO,upernet,,False,s2,,,,,,,0.688866675,,Thor,16,,,,qdzcsfqe,0.5,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.822865546,0.924233139
+,,FAST-EO,linear,,False,s2,,,,,,,0.670322597,,Thor,16,,,,7eb0gab5,0.5,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.811826408,0.918235183
+,,FAST-EO,linear,,False,s2,,,,,,,0.66971904,,Thor,16,,,,0073ait3,0.5,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.811071992,0.916829884
+,,FAST-EO,upernet,,False,s2,,,,,,,0.665527463,,Thor,16,,,,i5rdcbbk,0.5,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.809962511,0.919738054
+,,FAST-EO,upernet,,False,s2,,,,,,,0.661769807,,Thor,16,,,,kztb2qeb,0.5,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.80646503,0.914645612
+,,FAST-EO,linear,,False,s2,,,,,,,0.653374255,,Thor,16,,,,9jooocx4,0.5,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.80155319,0.912197292
+,,FAST-EO,upernet,,False,s2,,,,,,,0.648800969,,Thor,16,,,,fkazpoyx,0.25,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.800247908,0.91507107
+,,FAST-EO,upernet,,True,s2,,,,,,,0.646755934,,Thor,16,,,,10nn0iuw,0.5,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.798467517,0.912674367
+,,FAST-EO,upernet,,True,s2,,,,,,,0.645413756,,Thor,16,,,,hfoki15g,0.5,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.798078537,0.913502336
+,,FAST-EO,linear,,False,s2,,,,,,,0.646582425,,Thor,16,,,,zyv720sd,0.25,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.797722101,0.910651743
+,,FAST-EO,linear,,False,s2,,,,,,,0.640995324,,Thor,16,,,,93o0np71,0.25,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.794013977,0.90768522
+,,FAST-EO,upernet,,False,s2,,,,,,,0.637395203,,Thor,16,,,,uq85q2e8,0.25,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.793300152,0.910892546
+,,FAST-EO,upernet,,True,s2,,,,,,,0.638445616,,Thor,16,,,,fjqcflqs,0.5,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.792927384,0.908174932
+,,FAST-EO,linear,,False,s2,,,,,,,0.631110489,,Thor,16,,,,mob3jebt,0.25,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.788635135,0.906034231
+,,FAST-EO,upernet,,True,s2,,,,,,,0.617805839,,Thor,16,,,,mma6xf7m,0.25,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.780248761,0.900328636
+,,FAST-EO,upernet,,True,s2,,,,,,,0.616137981,,Thor,16,,,,vhvh5lca,0.25,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.780041337,0.90217495
+,,FAST-EO,upernet,,True,s2,,,,,,,0.598330855,,Thor,16,,,,37v3x1an,0.25,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.770309329,0.899076402
+,,FAST-EO,upernet,,False,s2,,,,,,,0.587311268,,Thor,16,,,,k4jq1wmx,0.25,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.763229311,0.893934488
+,,FAST-EO,upernet,,True,s2,,,,,,,0.569870353,,Thor,16,,,,a11j91kl,0.1,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.754975557,0.894814432
+,,FAST-EO,upernet,,False,s2,,,,,,,0.568958521,,Thor,16,,,,m3gkui0r,0.1,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.752634168,0.889018297
+,,FAST-EO,upernet,,False,s2,,,,,,,0.565155327,,Thor,16,,,,s41wk2t8,0.1,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.751634955,0.891649365
+,,FAST-EO,linear,,False,s2,,,,,,,0.564509511,,Thor,16,,,,m4esx987,0.1,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.749732971,0.886817455
+,,FAST-EO,linear,,True,s2,,,,,,,0.556503713,,Thor,16,,,,z5z5kvpp,0.5,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.74462086,0.883191586
+,,FAST-EO,upernet,,False,s2,,,,,,,0.551875889,,Thor,16,,,,8etyghfz,0.1,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.741908431,0.881829262
+,,FAST-EO,linear,,True,s2,,,,,,,0.54404074,,Thor,16,,,,bvxzw14k,0.5,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.737781525,0.880927324
+,,FAST-EO,upernet,,True,s2,,,,,,,0.542763948,,Thor,16,,,,lcnrf521,0.1,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.736308098,0.878365397
+,,FAST-EO,upernet,,True,s2,,,,,,,0.537539244,,Thor,16,,,,gvlcf0cf,0.05,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.733419657,0.877350509
+,,FAST-EO,linear,,True,s2,,,,,,,0.521044612,,Thor,16,,,,k9nk3fei,0.5,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.72222501,0.867931247
+,,FAST-EO,upernet,,True,s2,,,,,,,0.521080613,,Thor,16,,,,puahr7cz,0.1,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.720806122,0.863682747
+,,FAST-EO,linear,,False,s2,,,,,,,0.517522454,,Thor,16,,,,a78aapbj,0.05,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.720256805,0.86718148
+,,FAST-EO,linear,,False,s2,,,,,,,0.517303467,,Thor,16,,,,nxqttn6j,0.1,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.719059944,0.863951027
+,,FAST-EO,linear,,True,s2,,,,,,,0.508877575,,Thor,16,,,,dc5xl24k,0.25,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.717261076,0.870843232
+,,FAST-EO,upernet,,False,s2,,,,,,,0.504134476,,Thor,16,,,,3o46btrw,0.05,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.714515209,0.869550049
+,,FAST-EO,linear,,True,s2,,,,,,,0.499106258,,Thor,16,,,,1cx9u96d,0.25,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.712018847,0.869431138
+,,FAST-EO,upernet,,True,s2,,,,,,,0.48895821,,Thor,16,,,,w9wzwtco,0.05,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.704880357,0.862858295
+,,FAST-EO,linear,,True,s2,,,,,,,0.483490169,,Thor,16,,,,e8c5tcgd,0.25,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.698385,0.851493359
+,,FAST-EO,linear,,False,s2,,,,,,,0.476090699,,Thor,16,,,,6wj5pqgf,0.1,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.689758599,0.836914897
+,,FAST-EO,upernet,,False,s2,,,,,,,0.465301901,,Thor,16,,,,0b29lrgc,0.05,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.685023546,0.838297188
+,,FAST-EO,linear,,False,s2,,,,,,,0.462497622,,Thor,16,,,,cne66bdy,0.05,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.684676766,0.841225863
+,,FAST-EO,upernet,,True,s2,,,,,,,0.4373402,,Thor,16,,,,mtre3dyp,0.05,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.670236766,0.83472085
+,,FAST-EO,linear,,True,s2,,,,,,,0.424788237,,Thor,16,,,,gn1cqtgr,0.1,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.664564848,0.835962474
+,,FAST-EO,linear,,True,s2,,,,,,,0.412691444,,Thor,16,,,,zscd37co,0.05,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.655443966,0.826472163
+,,FAST-EO,linear,,True,s2,,,,,,,0.393434703,,Thor,16,,,,fdqsfl38,0.1,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.646327734,0.827158689
+,,FAST-EO,linear,,False,s2,,,,,,,0.411044657,,Thor,16,,,,y79c5dgl,0.05,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.644035935,0.79653722
+,,FAST-EO,linear,,True,s2,,,,,,,0.381205887,,Thor,16,,,,n55876c9,0.1,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.640364647,0.827118397
+,,FAST-EO,linear,,True,s2,,,,,,,0.365370899,,Thor,16,,,,issyrq49,0.05,1.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.631602764,0.824002087
+,,FAST-EO,linear,,True,s2,,,,,,,0.342926979,,Thor,16,,,,8nsh7f19,0.05,2.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.602116346,0.77095747
+,,FAST-EO,upernet,,False,s2,,,,,,,,,Thor,16,,,,pli3huwp,0.05,0.0,2alo5mh5,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,,
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.773980498,,Terramind,16 (Terramind),,,,x3sglqqd,0.5,2.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.869036794,0.938030958
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.766908467,,Terramind,16 (Terramind),,,,ynvjrvkl,0.5,1.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.864964962,0.936168969
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.755755126,,Terramind,16 (Terramind),,,,n82vsffc,0.5,0.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.858791947,0.933975756
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.748330116,,Terramind,16 (Terramind),,,,veq8qjni,0.25,2.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.853832722,0.929983556
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.732173145,,Terramind,16 (Terramind),,,,k8y7nphn,0.25,1.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.844265461,0.924945474
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.727123976,,Terramind,16 (Terramind),,,,840sw8rl,0.25,0.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.841771364,0.924841344
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.702489197,,Terramind,16 (Terramind),,,,ft3sobri,0.1,1.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.827550173,0.918244839
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.68128252,,Terramind,16 (Terramind),,,,znmxzxcn,0.1,2.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.813165188,0.906258285
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.651101708,,Terramind,16 (Terramind),,,,ug24vf31,0.1,0.0,qyxl13nr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base_tim,0.797052026,0.902012289
+,,FAST-EO,,,False,s1,,,,,,,0.675009549,,UNet,,,,,gkcrln0h,,,91j1f7kt,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.81139034,0.910005271
+,,FAST-EO,,,False,s2,,,,,,,0.8295784,,UNet,,,,,27bt1w0r,,,91j1f7kt,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.90197134,0.955432534
+,,FAST-EO,,,False,s1+s2,,,,,,,0.824271798,,UNet,,,,,k5oxyogp,,,91j1f7kt,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.898934245,0.954091072
+,,FAST-EO,,,False,s1,,,,,,,0.746897459,,UNet,,,,,y3gfs3jo,,,fc3gud5l,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,,0.752857566,0.755769551
+,,FAST-EO,,,False,s2,,,,,,,0.768264651,,UNet,,,,,7fh59wam,,,fc3gud5l,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,,0.794671893,0.804969013
+,,FAST-EO,,,False,s1+s2,,,,,,,0.768630028,,UNet,,,,,um9w2jsu,,,fc3gud5l,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,,0.796997786,0.808053076
+,,FAST-EO,linear,,False,s2,,,,,,,0.727936983,,Thor,4,,,,2wm1eebi,0.5,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.845185518,0.933983386
+,,FAST-EO,linear,,False,s2,,,,,,,0.724259794,,Thor,4,,,,6n5oxbuj,0.5,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.842993677,0.932784498
+,,FAST-EO,linear,,False,s2,,,,,,,0.719849408,,Thor,4,,,,xf53w2r3,0.5,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.840596557,0.932061791
+,,FAST-EO,linear,,False,s2,,,,,,,0.708895624,,Thor,4,,,,nbbhadzl,0.25,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.834221363,0.92896533
+,,FAST-EO,upernet,,False,s2,,,,,,,0.705306113,,Thor,4,,,,qjk1gzfg,0.5,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.832585454,0.92935127
+,,FAST-EO,upernet,,False,s2,,,,,,,0.696512103,,Thor,4,,,,is9ezft8,0.5,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.826970935,0.925333142
+,,FAST-EO,upernet,,True,s2,,,,,,,0.693294227,,Thor,4,,,,rbvl8q7g,0.5,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.825692892,0.926259041
+,,FAST-EO,upernet,,False,s2,,,,,,,0.688485205,,Thor,4,,,,fzd44c54,0.5,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.821973979,0.922067404
+,,FAST-EO,upernet,,True,s2,,,,,,,0.685338199,,Thor,4,,,,nb7lb1ma,0.5,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.82119751,0.92442733
+,,FAST-EO,linear,,False,s2,,,,,,,0.684352934,,Thor,4,,,,84otuutn,0.25,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.819964111,0.922112525
+,,FAST-EO,upernet,,True,s2,,,,,,,0.674988031,,Thor,4,,,,d3ngl0ww,0.25,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.815755367,0.923304796
+,,FAST-EO,upernet,,False,s2,,,,,,,0.675813794,,Thor,4,,,,7nita5gw,0.25,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.815060973,0.919905126
+,,FAST-EO,upernet,,True,s2,,,,,,,0.670347214,,Thor,4,,,,h13g92ai,0.25,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.812922001,0.921580374
+,,FAST-EO,upernet,,False,s2,,,,,,,0.671027541,,Thor,4,,,,74xy6dwi,0.25,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.811810136,0.917127788
+,,FAST-EO,linear,,False,s2,,,,,,,0.671110868,,Thor,4,,,,992op4zi,0.25,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.811365128,0.915647209
+,,FAST-EO,upernet,,True,s2,,,,,,,0.663848877,,Thor,4,,,,5plptw14,0.5,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.80814594,0.916674435
+,,FAST-EO,upernet,,True,s2,,,,,,,0.654738367,,Thor,4,,,,2uy2ujio,0.1,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.804881811,0.920417249
+,,FAST-EO,upernet,,True,s2,,,,,,,0.656100392,,Thor,4,,,,nkhqdz5r,0.25,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.804816008,0.918126106
+,,FAST-EO,upernet,,False,s2,,,,,,,0.655929148,,Thor,4,,,,3mbs5791,0.25,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.803936839,0.915667534
+,,FAST-EO,upernet,,False,s2,,,,,,,0.655279636,,Thor,4,,,,l9o8xnki,0.1,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.80379653,0.916216731
+,,FAST-EO,upernet,,False,s2,,,,,,,0.633822381,,Thor,4,,,,edzypqzu,0.1,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.790299058,0.907060266
+,,FAST-EO,upernet,,False,s2,,,,,,,0.631307364,,Thor,4,,,,iirrs7h5,0.1,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.788676322,0.905866086
+,,FAST-EO,upernet,,True,s2,,,,,,,0.614406228,,Thor,4,,,,1v8mvqzt,0.1,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.779289842,0.902467847
+,,FAST-EO,upernet,,True,s2,,,,,,,0.601625919,,Thor,4,,,,idcx81i2,0.1,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.77073437,0.895470321
+,,FAST-EO,upernet,,True,s2,,,,,,,0.593662143,,Thor,4,,,,7k7vj5yd,0.05,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.769805551,0.904589295
+,,FAST-EO,linear,,False,s2,,,,,,,0.59120065,,Thor,4,,,,0ewy7e33,0.1,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.765370071,0.894658685
+,,FAST-EO,linear,,False,s2,,,,,,,0.586854875,,Thor,4,,,,2oi0v2u0,0.1,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.763581872,0.895688593
+,,FAST-EO,upernet,,True,s2,,,,,,,0.581064641,,Thor,4,,,,05upzfv2,0.05,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.761906683,0.899263859
+,,FAST-EO,upernet,,True,s2,,,,,,,0.579108655,,Thor,4,,,,9sz8ip39,0.05,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.759935021,0.896140397
+,,FAST-EO,upernet,,False,s2,,,,,,,0.565048695,,Thor,4,,,,tzk6arft,0.05,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.751271009,0.890694737
+,,FAST-EO,upernet,,False,s2,,,,,,,0.567082107,,Thor,4,,,,hk3y7grw,0.05,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.750358582,0.88491261
+,,FAST-EO,linear,,False,s2,,,,,,,0.545066535,,Thor,4,,,,y1g2kekc,0.1,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.735762715,0.87338537
+,,FAST-EO,upernet,,False,s2,,,,,,,0.541502297,,Thor,4,,,,9tjl3sot,0.05,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.735314965,0.877232194
+,,FAST-EO,linear,,True,s2,,,,,,,0.534219503,,Thor,4,,,,wuzw8t39,0.5,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.731527627,0.876535058
+,,FAST-EO,linear,,True,s2,,,,,,,0.471608847,,Thor,4,,,,huzll8en,0.5,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.696807146,0.864074469
+,,FAST-EO,linear,,True,s2,,,,,,,0.467164516,,Thor,4,,,,yscbrw84,0.25,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.691927195,0.855908692
+,,FAST-EO,linear,,True,s2,,,,,,,0.456947446,,Thor,4,,,,quax20vi,0.25,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.68757093,0.857808471
+,,FAST-EO,linear,,True,s2,,,,,,,0.45666635,,Thor,4,,,,0hxs49ab,0.5,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.687164903,0.85699743
+,,FAST-EO,linear,,False,s2,,,,,,,0.465592265,,Thor,4,,,,pcu3bef5,0.05,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.685639381,0.839668751
+,,FAST-EO,linear,,False,s2,,,,,,,0.459862173,,Thor,4,,,,k7n33l2b,0.05,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.682933569,0.839874804
+,,FAST-EO,linear,,True,s2,,,,,,,0.425155878,,Thor,4,,,,mk4ufcbk,0.25,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.665862799,0.839264154
+,,FAST-EO,linear,,True,s2,,,,,,,0.415725857,,Thor,4,,,,cvkwjdrf,0.1,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.659506977,0.834045708
+,,FAST-EO,linear,,True,s2,,,,,,,0.401590854,,Thor,4,,,,mtd338dd,0.05,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.650268674,0.827091932
+,,FAST-EO,linear,,True,s2,,,,,,,0.373850286,,Thor,4,,,,pvui2d90,0.1,1.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.634884715,0.821507931
+,,FAST-EO,linear,,True,s2,,,,,,,0.367749959,,Thor,4,,,,aeagdzdk,0.1,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.630811453,0.818253219
+,,FAST-EO,linear,,False,s2,,,,,,,0.387866288,,Thor,4,,,,i4epqoyj,0.05,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.628479242,0.784310758
+,,FAST-EO,linear,,True,s2,,,,,,,0.28306973,,Thor,4,,,,vpd0exw3,0.05,2.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.565432429,0.748899162
+,,FAST-EO,linear,,True,s2,,,,,,,0.231791347,,Thor,4,,,,hss2m1p4,0.05,0.0,gkeij3t9,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,base,0.522934198,0.700612307
+,,FAST-EO,,,False,s2,,,,,,,0.793701053,,UNet,,,,,zgi7gbvi,0.5,2.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.88344276,0.952538073
+,,FAST-EO,,,False,s2,,,,,,,0.808537662,,UNet,,,,,pm8q888o,0.5,1.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.892059207,0.956685841
+,,FAST-EO,,,False,s2,,,,,,,0.783740222,,UNet,,,,,jb1k7tp3,0.5,0.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.877786994,0.950158894
+,,FAST-EO,,,False,s2,,,,,,,0.762393355,,UNet,,,,,ruqn3ic9,0.25,2.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.865925789,0.945873916
+,,FAST-EO,,,False,s2,,,,,,,0.755972683,,UNet,,,,,4v60aupu,0.25,1.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.861742973,0.942659974
+,,FAST-EO,,,False,s2,,,,,,,0.740742564,,UNet,,,,,bzh9mbp0,0.25,0.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.853208899,0.939376712
+,,FAST-EO,,,False,s2,,,,,,,0.68380785,,UNet,,,,,1co2pyn7,0.1,2.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.820512652,0.924632609
+,,FAST-EO,,,False,s2,,,,,,,0.716063797,,UNet,,,,,7urwfj09,0.1,1.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.839131832,0.933281779
+,,FAST-EO,,,False,s2,,,,,,,0.70440197,,UNet,,,,,dra1r0ss,0.1,0.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.832021832,0.928979754
+,,FAST-EO,,,False,s2,,,,,,,0.595142007,,UNet,,,,,vs4hisr4,0.05,2.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.772385001,0.91040343
+,,FAST-EO,,,False,s2,,,,,,,0.62767303,,UNet,,,,,9cxs49a6,0.05,1.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.78903836,0.912467241
+,,FAST-EO,,,False,s2,,,,,,,0.612906158,,UNet,,,,,bqrbbm7w,0.05,0.0,r4mgij9k,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.778741419,0.903036475
+,,FAST-EO,,,False,s1+s2,,,,,,,0.798300087,,UNet,,,,,8xlmvbed,0.5,0.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.883312106,0.945246816
+,,FAST-EO,,,False,s1+s2,,,,,,,0.790712774,,UNet,,,,,j4u4e1s0,0.5,1.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.879226208,0.944096446
+,,FAST-EO,,,False,s1+s2,,,,,,,0.791105211,,UNet,,,,,q0702jup,0.5,2.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.878813624,0.942292333
+,,FAST-EO,,,False,s1+s2,,,,,,,0.744990051,,UNet,,,,,6vu604bt,0.25,0.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.851431966,0.927692473
+,,FAST-EO,,,False,s1+s2,,,,,,,0.730922639,,UNet,,,,,0gq5mnl6,0.25,1.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.841670454,0.919135928
+,,FAST-EO,,,False,s1+s2,,,,,,,0.711635292,,UNet,,,,,h4avd3gg,0.25,2.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.829618692,0.911318243
+,,FAST-EO,,,False,s1+s2,,,,,,,0.69247812,,UNet,,,,,urtcso21,0.1,0.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.819246054,0.908151984
+,,FAST-EO,,,False,s1+s2,,,,,,,0.651044428,,UNet,,,,,sqbwv1wx,0.05,1.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.794900179,0.895799696
+,,FAST-EO,,,False,s1+s2,,,,,,,0.647714138,,UNet,,,,,p63jx8f1,0.1,1.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.79080224,0.888672233
+,,FAST-EO,,,False,s1+s2,,,,,,,0.640603065,,UNet,,,,,p6evj9vg,0.1,2.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.78612417,0.885136724
+,,FAST-EO,,,False,s1+s2,,,,,,,0.600339949,,UNet,,,,,tqzkzm3d,0.05,2.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.759412766,0.864589512
+,,FAST-EO,,,False,s1+s2,,,,,,,0.573034108,,UNet,,,,,l8k5fdq3,0.05,0.0,8ml6aifn,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.747669339,0.868532419
+,,FAST-EO,,,True,s1+s2,,,,,,,0.82962,,UNet,,,,,jvu2pg0x,,,zh1o6ac8,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.90178,0.95478
+,,FAST-EO,,,True,s2,,,,,,,0.82344,,UNet,,,,,lit7j0q2,,,uscwqu29,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.90062,0.96057
+,,FAST-EO,,,True,s1+s2,,,,,,,0.80813,,UNet,,,,,ny7feq72,,,uscwqu29,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,,0.79729,0.76953
+,,FAST-EO,,,False,s2,,,,,,,0.825613022,,UNet,,,,,hrsx9h9m,,,vdfpktk0,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.901765466,0.960799634
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.816585124,,Terramind,,,,,vxatjjtn,0.5,1.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.894343138,0.951568902
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.814405501,,Terramind,,,,,m93nx2hf,0.5,2.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.893016458,0.950779319
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.807555377,,Terramind,,,,,qr521w9z,0.25,2.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.889107823,0.949083149
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.803482115,,Terramind,,,,,doqyc5it,0.5,0.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.887084544,0.948983669
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.790893793,,Terramind,,,,,emc3hwfz,0.25,1.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.879289031,0.944019794
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.747509778,,Terramind,,,,,qoxrf2cs,0.25,0.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.85476315,0.933966517
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.734886527,,Terramind,,,,,692b0ybd,0.1,1.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.846886039,0.928811252
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.729602098,,Terramind,,,,,oetbvg7m,0.1,2.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.843708277,0.927015185
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.717883527,,Terramind,,,,,itygusqr,0.05,1.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.837347329,0.925089955
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.708708346,,Terramind,,,,,qt6e8ovz,0.1,0.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.832035303,0.922587454
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.680111408,,Terramind,,,,,fy92us80,0.05,2.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.814323187,0.911334753
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.655317128,,Terramind,,,,,634si45b,0.05,0.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.800583482,0.906403661
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.619294882,,Terramind,,,,,6si6e0ne,0.1,1.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.78104353,0.900531292
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.607584536,,Terramind,,,,,c6c9dx80,0.5,2.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.773607075,0.895357728
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.598349214,,Terramind,,,,,byo18j1v,0.5,1.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.768573999,0.893782437
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.591105223,,Terramind,,,,,1ckei3zr,0.25,1.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.764831543,0.893168688
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.583777428,,Terramind,,,,,1pspnq9q,0.5,0.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.76099956,0.892412305
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.560677111,,Terramind,,,,,fqstf947,0.25,2.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.748288035,0.888121903
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.456798136,,Terramind,,,,,nzv5d5xz,0.25,0.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.690267742,0.866252065
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.237549022,,Terramind,,,,,0u4dvasl,0.1,2.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.541944623,0.744227231
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.175509647,,Terramind,,,,,k64n90wb,0.1,0.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.442697614,0.570795774
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.138521001,,Terramind,,,,,zu55cklp,0.05,0.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.284214407,0.313869327
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.13242805,,Terramind,,,,,hu00snhh,0.05,2.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.270831019,0.29710114
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.138791844,,Terramind,,,,,bdakxqc8,0.05,1.0,1l6tjikr,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.242701203,0.256958663
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.834439099,,Thor,4,,,,2ca4975c,0.25,0.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.904546261,0.956037283
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.829727054,,Thor,4,,,,1flbx95g,0.05,2.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.90188241,0.954945147
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.825919688,,Thor,4,,,,5goiivov,0.5,0.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.899668872,0.95387876
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.825858235,,Thor,4,,,,qla0zydu,0.5,2.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.899606109,0.953780055
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.824358642,,Thor,4,,,,q6ut4uyd,0.5,1.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.898941636,0.953985155
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.819051743,,Thor,4,,,,tvmbxyud,0.25,2.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.895769119,0.95223552
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.816716969,,Thor,4,,,,sgv5ui8m,0.05,1.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.894700289,0.952453375
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.805984974,,Thor,4,,,,3ztbhwyo,0.25,1.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.887897849,0.947751224
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.799501896,,Thor,4,,,,xhsbo9dd,0.1,1.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.884760857,0.94783926
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.793828607,,Thor,4,,,,2jjx5eih,0.1,0.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.880639791,0.9437778
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.792133868,,Thor,4,,,,gn99wzox,0.1,2.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.880054474,0.944500804
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.782419503,,Thor,16,,,,42frhb22,0.25,2.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.874316096,0.941508412
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.773768425,,Thor,4,,,,frn2228s,0.05,0.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.868826807,0.937713623
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.764387608,,Thor,16,,,,8fgw4b2r,0.5,2.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.863961577,0.936845064
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.756934583,,Thor,16,,,,m1ewh2nn,0.25,0.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.859900236,0.935574353
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.754233479,,Thor,16,,,,axxtkdbk,0.1,2.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.857760072,0.933110058
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.753215671,,Thor,16,,,,ugf8urf5,0.5,0.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.857691884,0.934393585
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.732531667,,Thor,16,,,,nimanjdv,0.05,2.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.845616698,0.928450942
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.733627379,,Thor,16,,,,vhjsw5jl,0.1,0.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.845298946,0.925909638
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.724104881,,Thor,16,,,,24d3iuuz,0.1,1.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.841168642,0.927448392
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.719692528,,Thor,16,,,,uqbcc6ci,0.5,1.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.838685393,0.926459908
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.71569407,,Thor,16,,,,aod02cwg,0.25,1.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.835988939,0.924219906
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.708700716,,Thor,16,,,,yybrza08,0.05,1.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.831893384,0.92217201
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.594963312,,Thor,16,,,,x2uzfp3d,0.05,0.0,qlqqhi5b,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.763939857,0.884896576
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.789863646,,Thor,4,,,,sha08c08,0.1,1.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.878470242,0.943072796
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.763530016,,Thor,4,,,,smdbpm2g,0.5,0.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.863731623,0.9374125
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.757942319,,Thor,4,,,,acyc0o69,0.25,2.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.860234737,0.935101271
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.755762756,,Thor,4,,,,6et996gl,0.5,1.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.859416366,0.935841203
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.75583297,,Thor,4,,,,oreibcln,0.5,2.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.859277129,0.935318112
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.741656959,,Thor,4,,,,yy1i1qfv,0.25,0.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.850993812,0.931222439
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.737490356,,Thor,4,,,,7fzbp3r3,0.1,2.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.847970963,0.928257883
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.734403133,,Thor,4,,,,245zrspk,0.05,2.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.845513582,0.9254269
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.705689549,,Thor,16,,,,6a65wdx0,0.25,2.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.828280568,0.915798545
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.696222007,,Thor,16,,,,8eg4vtms,0.5,2.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.822502911,0.912345886
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.692489028,,Thor,16,,,,ur9fq5uh,0.5,0.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.820961356,0.913149118
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.690066636,,Thor,16,,,,3e5vrw54,0.1,1.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.820088446,0.91405499
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.685815156,,Thor,4,,,,tcd19drc,0.05,1.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.81874913,0.916246176
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.68664825,,Thor,16,,,,09yalk3t,0.1,2.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.817314446,0.910773695
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.682956517,,Thor,16,,,,buqzmt3t,0.05,1.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.816030025,0.912287831
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.683220208,,Thor,16,,,,7yf01q40,0.25,1.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.814412832,0.907153487
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.680855215,,Thor,16,,,,binqus28,0.5,1.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.81361115,0.908166945
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.671460509,,Thor,16,,,,5nb8qg6i,0.25,0.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.808094323,0.905375361
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.670864522,,Thor,16,,,,rp1cpip8,0.1,0.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.807923794,0.905724645
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.664815724,,Thor,4,,,,w3ll6gfy,0.1,0.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.80652678,0.910324097
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.663109243,,Thor,16,,,,9b4oevoz,0.05,0.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.803063035,0.902521551
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.65977484,,Thor,4,,,,6fasztb1,0.05,0.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.801309705,0.902130306
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.649698973,,Thor,4,,,,z93yxpqe,0.25,1.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.798579514,0.908625126
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.648155332,,Thor,16,,,,zjuanra4,0.05,2.0,rxn8airf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,base,0.794892788,0.89987123
+,,FAST-EO,,,True,s1+s2,,,,,,,0.764925122,,UNet,,,,,swedm5ko,0.5,2.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.863932729,0.935974419
+,,FAST-EO,,,True,s1+s2,,,,,,,0.759560287,,UNet,,,,,78m0lefy,0.5,1.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.860905945,0.934747756
+,,FAST-EO,,,True,s1+s2,,,,,,,0.752241254,,UNet,,,,,lfoo0e4l,0.5,0.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.857147813,0.934188068
+,,FAST-EO,,,True,s1+s2,,,,,,,0.753710747,,UNet,,,,,ewr0ej33,0.25,2.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.857615948,0.933441222
+,,FAST-EO,,,True,s1+s2,,,,,,,0.750338793,,UNet,,,,,qaq5s8ix,0.25,1.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.855279684,0.931375504
+,,FAST-EO,,,True,s1+s2,,,,,,,0.736535668,,UNet,,,,,72gwd1qh,0.25,0.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.847936511,0.929548085
+,,FAST-EO,,,True,s1+s2,,,,,,,0.696985424,,UNet,,,,,167yc7fj,0.1,2.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.823476791,0.9141168
+,,FAST-EO,,,True,s1+s2,,,,,,,0.702348948,,UNet,,,,,o4n7sels,0.1,1.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.827325165,0.917778611
+,,FAST-EO,,,True,s1+s2,,,,,,,0.696789086,,UNet,,,,,17cgdsle,0.1,0.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.825388253,0.920099735
+,,FAST-EO,,,True,s1+s2,,,,,,,0.625510275,,UNet,,,,,5uyiakt0,0.05,1.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.778580189,0.884399116
+,,FAST-EO,,,True,s1+s2,,,,,,,0.6531232,,UNet,,,,,9zovg8pz,0.05,2.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.793997526,0.89033401
+,,FAST-EO,,,True,s1+s2,,,,,,,0.638055623,,UNet,,,,,490ai044,0.05,0.0,5092bfgg,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,,0.787364602,0.892206728
+,,FAST-EO,,,True,s2,,,,,,,0.71861124,,UNet,,,,,jau9e5je,0.5,2.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.840512693,0.933686018
+,,FAST-EO,,,True,s2,,,,,,,0.73855871,,UNet,,,,,cuvgjqk7,0.5,1.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.852194667,0.939560354
+,,FAST-EO,,,True,s2,,,,,,,0.729412436,,UNet,,,,,etx8vhd8,0.5,0.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.846592903,0.936101615
+,,FAST-EO,,,True,s2,,,,,,,0.704093933,,UNet,,,,,810c0vd3,0.25,2.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.832688332,0.931524932
+,,FAST-EO,,,True,s2,,,,,,,0.670568705,,UNet,,,,,ry5rl42i,0.25,1.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.812550187,0.920092344
+,,FAST-EO,,,True,s2,,,,,,,0.659782588,,UNet,,,,,20tcfkxz,0.25,0.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.804836631,0.912647247
+,,FAST-EO,,,True,s2,,,,,,,0.678206682,,UNet,,,,,t06k0lxa,0.1,2.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.818524361,0.927018583
+,,FAST-EO,,,True,s2,,,,,,,0.618000805,,UNet,,,,,vqpcy2pg,0.1,1.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.781769514,0.904667914
+,,FAST-EO,,,True,s2,,,,,,,0.662201166,,UNet,,,,,bzjn5vyw,0.1,0.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.808188558,0.919299245
+,,FAST-EO,,,True,s2,,,,,,,0.617296338,,UNet,,,,,ze75dlnv,0.05,2.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.784679055,0.914796472
+,,FAST-EO,,,True,s2,,,,,,,0.617372036,,UNet,,,,,dfxjp1tn,0.05,1.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.784055471,0.912715137
+,,FAST-EO,,,True,s2,,,,,,,0.599888921,,UNet,,,,,bbzdcdep,0.05,0.0,k52gzl9b,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,,0.770950198,0.898703933
+,,FAST-EO,upernet,,False,s1+s2+dem,,,,,,,0.79166,,Terramind,4 (Terramind),,,,2qg8hgpl,,,9blm1zrr,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.82984,0.8445
+,,FAST-EO,linear,,False,s1+s2+dem,,,,,,,0.75294,,Terramind,4 (Terramind),,,,z6v60we4,,,9blm1zrr,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.80827,0.82933
+,,FAST-EO,upernet,,True,s1+s2+dem,,,,,,,0.78824,,Terramind,4 (Terramind),,,,lecgidp7,,,9blm1zrr,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.80511,0.81182
+,,FAST-EO,linear,,True,s1+s2+dem,,,,,,,0.63875,,Terramind,4 (Terramind),,,,fr3defel,,,9blm1zrr,Segmentation,,UC6: Monitoring Expansion of Mining Fields into Farmlands,,tiny,0.63934,0.64008
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.426701546,,Terramind,4 (Terramind),,,,754dl7ge,0.5,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.674432755,0.862936735
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.411566913,,Terramind,4 (Terramind),,,,6d5qie1d,0.5,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.666130066,0.860224903
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.489823759,,Terramind,4 (Terramind),,,,jnbriyzi,0.5,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.709508657,0.875645936
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.198740467,,Terramind,4 (Terramind),,,,xuyzbr6q,0.25,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.547925711,0.817638814
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.04795463,,Terramind,4 (Terramind),,,,sug1jz5y,0.25,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.464081794,0.787194192
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.352859408,,Terramind,4 (Terramind),,,,usx4p66g,0.25,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.633608818,0.848734736
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.111363627,,Terramind,4 (Terramind),,,,j5zgp0ei,0.1,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.499050409,0.799082637
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.251490682,,Terramind,4 (Terramind),,,,dxa63n6q,0.1,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.57685262,0.827026486
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.031154802,,Terramind,4 (Terramind),,,,jzt69d13,0.1,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.454731882,0.783776641
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.130894735,,Terramind,4 (Terramind),,,,bbhwa028,0.05,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.174527913,0.176834285
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.133385494,,Terramind,4 (Terramind),,,,5ax4ktvb,0.05,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.139251918,0.139291897
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.13319619,,Terramind,4 (Terramind),,,,pi6nboc1,0.05,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.171852678,0.173657104
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.787555993,,Terramind,4 (Terramind),,,,wxfs8808,0.5,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.876871705,0.941660106
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.780276656,,Terramind,4 (Terramind),,,,81xzhv23,0.5,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.872393608,0.938891292
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.772758663,,Terramind,4 (Terramind),,,,tyvwlem6,0.5,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.867775083,0.936053693
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.755918801,,Terramind,4 (Terramind),,,,ggh7injf,0.25,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.857105136,0.928756952
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.743946671,,Terramind,4 (Terramind),,,,rng9d080,0.25,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.849748969,0.924251735
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.749167204,,Terramind,4 (Terramind),,,,grpfk7f3,0.25,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.853019297,0.926398039
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.719064653,,Terramind,4 (Terramind),,,,dv69wd8w,0.1,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.834008574,0.913603485
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.760125339,,Terramind,4 (Terramind),,,,lpr95yqx,0.1,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.860452354,0.932582021
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.743754029,,Terramind,4 (Terramind),,,,6si26bdp,0.1,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.849476337,0.923731685
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.720476985,,Terramind,4 (Terramind),,,,tnaa3uje,0.05,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.835404038,0.915650427
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.751727164,,Terramind,4 (Terramind),,,,8brzfwfs,0.05,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.85519886,0.929137409
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.64198494,,Terramind,4 (Terramind),,,,3ckxlo3n,0.05,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.785564363,0.881700695
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.836191416,,Terramind,4 (Terramind),,,,mrl7jgm8,0.5,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.905599654,0.956632316
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.832600832,,Terramind,4 (Terramind),,,,xfft61a8,0.5,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.90359652,0.955880761
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.837338865,,Terramind,4 (Terramind),,,,d600bd49,0.5,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.906508327,0.957683027
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.832076073,,Terramind,4 (Terramind),,,,3s5jhcfl,0.25,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.90332222,0.955826402
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.823803008,,Terramind,4 (Terramind),,,,vcindm2t,0.25,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.898683608,0.954026103
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.829701185,,Terramind,4 (Terramind),,,,x2wv8rc2,0.25,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.902020931,0.955401301
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.791047752,,Terramind,4 (Terramind),,,,euo9o93o,0.1,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.88001138,0.945972025
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.802898347,,Terramind,4 (Terramind),,,,i8rzps6n,0.1,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.886521578,0.948144317
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.794350803,,Terramind,4 (Terramind),,,,a8fbkvg1,0.1,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.881221592,0.944756031
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.703254044,,Terramind,4 (Terramind),,,,9s18e66c,0.05,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.828499436,0.91996491
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.776177227,,Terramind,4 (Terramind),,,,ybjes68r,0.05,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.871215463,0.941350102
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.728000641,,Terramind,4 (Terramind),,,,8zxrov45,0.05,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.842471182,0.925652742
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.848255336,,Terramind,4 (Terramind),,,,yhuu6gbp,0.5,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.912492394,0.959647119
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.838641047,,Terramind,4 (Terramind),,,,zk90j3r5,0.5,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.907084346,0.957500875
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.828087091,,Terramind,4 (Terramind),,,,5crcmdzj,0.5,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.900893569,0.95437938
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.826280415,,Terramind,4 (Terramind),,,,9d04rwn7,0.25,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.899558187,0.953018367
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.813135505,,Terramind,4 (Terramind),,,,odwei9xl,0.25,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.89186728,0.949192107
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.804170072,,Terramind,4 (Terramind),,,,bjlru732,0.25,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.886998296,0.947709918
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.764315605,,Terramind,4 (Terramind),,,,vo2ddh55,0.1,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.863355875,0.935140491
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.783012271,,Terramind,4 (Terramind),,,,jp1hr9fy,0.1,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.874766529,0.941991568
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.788519144,,Terramind,4 (Terramind),,,,h9r06u2v,0.1,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.877640367,0.942552149
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.725634933,,Terramind,4 (Terramind),,,,tpifpbak,0.05,2.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.84046042,0.923103631
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.777176619,,Terramind,4 (Terramind),,,,iciwicbp,0.05,1.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.871940136,0.942064404
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.717254937,,Terramind,4 (Terramind),,,,jkizdjrk,0.05,0.0,rssqvpsz,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.835557282,0.920665562
+,,FAST-EO,linear,,True,s2,,,,,,,0.39677915,,Terramind,4 (Terramind),,,,g15yrbik,0.5,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.644821346,0.818043828
+,,FAST-EO,linear,,True,s2,,,,,,,0.381282032,,Terramind,4 (Terramind),,,,wv1cuxk0,0.5,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.634458423,0.809809983
+,,FAST-EO,linear,,True,s2,,,,,,,0.376803994,,Terramind,4 (Terramind),,,,zq6j82n6,0.5,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.631975293,0.808899224
+,,FAST-EO,linear,,True,s2,,,,,,,,,Terramind,4 (Terramind),,,,565kpllk,0.25,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,,
+,,FAST-EO,linear,,True,s2,,,,,,,0.378627777,,Terramind,4 (Terramind),,,,xcg29e8b,0.25,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.633213997,0.809922338
+,,FAST-EO,linear,,True,s2,,,,,,,0.379512519,,Terramind,4 (Terramind),,,,men3qz3i,0.25,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.6325984,0.806937575
+,,FAST-EO,linear,,True,s2,,,,,,,0.325472295,,Terramind,4 (Terramind),,,,sax3fwjz,0.1,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.609437823,0.815900326
+,,FAST-EO,linear,,True,s2,,,,,,,0.348016798,,Terramind,4 (Terramind),,,,dgshpbns,0.1,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.623978257,0.826505601
+,,FAST-EO,linear,,True,s2,,,,,,,0.34890613,,Terramind,4 (Terramind),,,,tssjwddo,0.1,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.623012841,0.822315395
+,,FAST-EO,linear,,True,s2,,,,,,,0.318044394,,Terramind,4 (Terramind),,,,gtsoa4ry,0.05,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.603091776,0.807804108
+,,FAST-EO,linear,,True,s2,,,,,,,0.329400808,,Terramind,4 (Terramind),,,,jmbwn8vs,0.05,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.614829659,0.826345444
+,,FAST-EO,linear,,True,s2,,,,,,,0.352618009,,Terramind,4 (Terramind),,,,sxaogkih,0.05,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.629244745,0.83564049
+,,FAST-EO,linear,,False,s2,,,,,,,0.773632765,,Terramind,4 (Terramind),,,,6h3p60k3,0.5,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.871955872,0.947456598
+,,FAST-EO,linear,,False,s2,,,,,,,0.772926033,,Terramind,4 (Terramind),,,,zjamhlxa,0.5,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.871618986,0.947489083
+,,FAST-EO,linear,,False,s2,,,,,,,0.757019639,,Terramind,4 (Terramind),,,,d0yok2tm,0.5,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.861861229,0.941431463
+,,FAST-EO,linear,,False,s2,,,,,,,0.729866922,,Terramind,4 (Terramind),,,,iaau1vso,0.25,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.846317708,0.934556782
+,,FAST-EO,linear,,False,s2,,,,,,,0.709247649,,Terramind,4 (Terramind),,,,dfgfh0f5,0.25,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.834434628,0.929090798
+,,FAST-EO,linear,,False,s2,,,,,,,0.691690981,,Terramind,4 (Terramind),,,,0z7b6kmr,0.25,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.824675918,0.925546288
+,,FAST-EO,linear,,False,s2,,,,,,,0.657897294,,Terramind,4 (Terramind),,,,jim5vu58,0.1,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.803887725,0.912566185
+,,FAST-EO,linear,,False,s2,,,,,,,0.694554329,,Terramind,4 (Terramind),,,,4hjc17dc,0.1,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.827340126,0.929460287
+,,FAST-EO,linear,,False,s2,,,,,,,0.692400694,,Terramind,4 (Terramind),,,,01sbi3g9,0.1,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.825426698,0.926793277
+,,FAST-EO,linear,,False,s2,,,,,,,0.595402658,,Terramind,4 (Terramind),,,,2fzke7sf,0.05,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.765840709,0.889897823
+,,FAST-EO,linear,,False,s2,,,,,,,0.667228043,,Terramind,4 (Terramind),,,,v3d5c8zs,0.05,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.811085761,0.920633018
+,,FAST-EO,linear,,False,s2,,,,,,,0.656758308,,Terramind,4 (Terramind),,,,96c8rxy9,0.05,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.804895401,0.917371511
+,,FAST-EO,upernet,,True,s2,,,,,,,0.686438859,,Terramind,4 (Terramind),,,,c9n70b7a,0.5,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.822355866,0.926347077
+,,FAST-EO,upernet,,True,s2,,,,,,,0.674291849,,Terramind,4 (Terramind),,,,a6m8092a,0.5,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.815488219,0.923537791
+,,FAST-EO,upernet,,True,s2,,,,,,,0.673153758,,Terramind,4 (Terramind),,,,xwoe0gh0,0.5,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.814154267,0.921130955
+,,FAST-EO,upernet,,True,s2,,,,,,,0.670336068,,Terramind,4 (Terramind),,,,vx5b5pn1,0.25,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.8133232,0.92284584
+,,FAST-EO,upernet,,True,s2,,,,,,,0.709642351,,Terramind,4 (Terramind),,,,vxvivkhd,0.25,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.83599031,0.933324814
+,,FAST-EO,upernet,,True,s2,,,,,,,0.662472069,,Terramind,4 (Terramind),,,,u0fvo4zc,0.25,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.808955669,0.921272278
+,,FAST-EO,upernet,,True,s2,,,,,,,0.592122734,,Terramind,4 (Terramind),,,,0a3oufpy,0.1,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.766754568,0.897502065
+,,FAST-EO,upernet,,True,s2,,,,,,,0.661392212,,Terramind,4 (Terramind),,,,asc9t02o,0.1,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.808227241,0.920654655
+,,FAST-EO,upernet,,True,s2,,,,,,,0.610920668,,Terramind,4 (Terramind),,,,f3zfwk95,0.1,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.778899133,0.906518459
+,,FAST-EO,upernet,,True,s2,,,,,,,0.51805985,,Terramind,4 (Terramind),,,,13cmghr7,0.05,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.721391678,0.869785786
+,,FAST-EO,upernet,,True,s2,,,,,,,0.556435049,,Terramind,4 (Terramind),,,,o09h78s5,0.05,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.745474577,0.885876954
+,,FAST-EO,upernet,,True,s2,,,,,,,0.51057297,,Terramind,4 (Terramind),,,,xy9q5hv6,0.05,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.71564734,0.863546252
+,,FAST-EO,upernet,,False,s2,,,,,,,0.771376133,,Terramind,4 (Terramind),,,,m4rrlv97,0.5,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.87019515,0.945425093
+,,FAST-EO,upernet,,False,s2,,,,,,,0.740211368,,Terramind,4 (Terramind),,,,5h98c0jq,0.5,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.852404475,0.93768692
+,,FAST-EO,upernet,,False,s2,,,,,,,0.754692495,,Terramind,4 (Terramind),,,,33r7ycuy,0.5,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.861163974,0.942815542
+,,FAST-EO,upernet,,False,s2,,,,,,,0.735573649,,Terramind,4 (Terramind),,,,9qr7ujm5,0.25,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.850551486,0.939009488
+,,FAST-EO,upernet,,False,s2,,,,,,,0.738595843,,Terramind,4 (Terramind),,,,e7re492f,0.25,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.852164745,0.939409971
+,,FAST-EO,upernet,,False,s2,,,,,,,0.732630074,,Terramind,4 (Terramind),,,,i3tc61kn,0.25,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.848623037,0.937502861
+,,FAST-EO,upernet,,False,s2,,,,,,,0.68563211,,Terramind,4 (Terramind),,,,w3wqnaap,0.1,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.821185648,0.923944533
+,,FAST-EO,upernet,,False,s2,,,,,,,0.717665076,,Terramind,4 (Terramind),,,,yk17fan2,0.1,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.840402365,0.934792638
+,,FAST-EO,upernet,,False,s2,,,,,,,0.730018556,,Terramind,4 (Terramind),,,,yi6dsqwb,0.1,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.8477422,0.938764393
+,,FAST-EO,upernet,,False,s2,,,,,,,0.59001416,,Terramind,4 (Terramind),,,,j3950lz4,0.05,2.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.763560593,0.890943587
+,,FAST-EO,upernet,,False,s2,,,,,,,0.62806505,,Terramind,4 (Terramind),,,,votpv2ql,0.05,1.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.786614895,0.904420733
+,,FAST-EO,upernet,,False,s2,,,,,,,0.614081979,,Terramind,4 (Terramind),,,,licbvsfd,0.05,0.0,5n0nnh08,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.780253112,0.905910611
+,,FAST-EO,linear,,True,s1+s2,,,,,,,0.696235836,,Terramind,4 (Terramind),,,,dp7t5m18,,,dai13ewf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.825163841,0.920238137
+,,FAST-EO,linear,,False,s1+s2,,,,,,,0.79408747,,Terramind,4 (Terramind),,,,31hiw23t,,,dai13ewf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.881377518,0.945611119
+,,FAST-EO,upernet,,True,s1+s2,,,,,,,0.851637065,,Terramind,4 (Terramind),,,,ooazkwv4,,,dai13ewf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.914566755,0.960920334
+,,FAST-EO,upernet,,False,s1+s2,,,,,,,0.859150648,,Terramind,4 (Terramind),,,,zr3xtsw3,,,dai13ewf,Segmentation,,UC1: Sen1Floods11- Weather & Climate Disaster Analysis,,tiny,0.919027567,0.963304639
+,,FAST-EO,linear,,True,s2,,,,,,,0.456007779,,Terramind,4 (Terramind),,,,cck3zb4f,,,dai13ewf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.680058002,0.836956739
+,,FAST-EO,linear,,False,s2,,,,,,,0.813023269,,Terramind,4 (Terramind),,,,mkbfak3c,,,dai13ewf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.89436239,0.95699209
+,,FAST-EO,upernet,,True,s2,,,,,,,0.72685039,,Terramind,4 (Terramind),,,,su2jwcgz,,,dai13ewf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.845056057,0.935234368
+,,FAST-EO,upernet,,False,s2,,,,,,,0.809144199,,Terramind,4 (Terramind),,,,7edijing,,,dai13ewf,Segmentation,,UC1: HLS Burnscars-Weather & Climate Disaster Analysis,,tiny,0.892334759,0.956614256
+0.986339441,8.0,FM4CS,pixelshuffle,0.313618,True,s1,0.137681159,100.0,138.0,0.121019108,0.159663866,19.0,,,Terramind,16,0.30036,,0.328099,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.986617425,8.0,FM4CS,mlp,0.043161,True,s1,0.0,175.0,108.0,0.0,0.0,0.0,,,Terramind,16,0.168773,,0.024745,,,,,Segmentation,"[""LULC""]",UC1: Flood Zone Mapping,,tiny_tim,,
+0.986130844,8.0,FM4CS,pixelshuffle,0.26733,True,s1,0.091254753,106.0,133.0,0.082758621,0.101694915,12.0,,,Terramind,16,0.240132,,0.301476,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.988736989,8.0,FM4CS,context_aware_mlp,0.021447,True,s1,0.0,151.0,50.0,0.0,0.0,0.0,,,Terramind,16,0.170754,,0.011442,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.990629309,8.0,FM4CS,context_aware_mlp,0.062886,True,s1,0.01,178.0,20.0,0.047619048,0.005586592,1.0,,,Terramind,16,0.753096,,0.032813,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.990132046,8.0,FM4CS,context_aware_mlp,0.053957,True,s1,0.011428571,142.0,31.0,0.03125,0.006993007,1.0,,,Terramind,16,0.464865,,0.028641,,,,,Segmentation,"[""LULC""]",UC1: Flood Zone Mapping,,base_tim,,
+0.990825672,8.0,FM4CS,mlp,0.06974,True,s1,0.0,131.0,83.0,0.0,0.0,0.0,,,Terramind,16,0.255387,,0.040384,,,,,Segmentation,"[""LULC""]",UC1: Flood Zone Mapping,,base_tim,,
+0.985829831,8.0,FM4CS,pixelshuffle,0.328725,True,s1,0.105263158,139.0,150.0,0.101796407,0.108974359,17.0,,,Terramind,16,0.323382,,0.334247,,,,,Segmentation,"[""LULC""]",UC1: Flood Zone Mapping,,tiny_tim,,
+0.988484402,8.0,FM4CS,mlp,0.042656,True,s1,0.008888889,130.0,93.0,0.010638298,0.007633588,1.0,,,Terramind,16,0.154429,,0.024745,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.991105956,8.0,FM4CS,context_aware_mlp,0.052517,True,s1,0.0,135.0,15.0,0.0,0.0,0.0,,,Terramind,16,0.877193,,0.027069,,,,,Segmentation,"[""LULC""]",UC1: Flood Zone Mapping,,tiny_tim,,
+0.989065279,8.0,FM4CS,mlp,0.110851,True,s1,0.016806723,156.0,78.0,0.025,0.012658228,2.0,,,Terramind,16,0.436718,,0.063482,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.985147236,8.0,FM4CS,pixelshuffle,0.281381,True,s1,0.094890511,124.0,124.0,0.094890511,0.094890511,13.0,,,Terramind,16,0.25447,,0.314658,,,,,Segmentation,"[""LULC""]",UC1: Flood Zone Mapping,,base_tim,,
+0.993131135,8.0,FM4CS,context_aware_mlp,0.437311,True,s1,0.15720524,105.0,88.0,0.169811321,0.146341463,18.0,,,Thor,16,0.752576,,0.308201,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.984235567,8.0,FM4CS,pixelshuffle,0.091649,True,s1,0.008230453,170.0,71.0,0.013888889,0.005847953,1.0,,,Thor,4,0.123766,,0.072766,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.974120471,8.0,FM4CS,pixelshuffle,0.091144,True,s1,0.015584416,131.0,248.0,0.011952191,0.02238806,3.0,,,Thor,16,0.068556,,0.13593,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.989006378,8.0,FM4CS,mlp,0.068771,True,s1,0.041237113,156.0,30.0,0.117647059,0.025,4.0,,,Thor,32,0.355148,,0.038072,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.962218978,8.0,FM4CS,pixelshuffle,0.076802,True,s1,0.015132409,157.0,624.0,0.00952381,0.036809816,6.0,,,Thor,16,0.05045,,0.160792,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.994557443,8.0,FM4CS,mlp,0.686425,True,s1,0.454545455,71.0,133.0,0.389908257,0.544871795,85.0,,,Thor,8,0.803059,,0.599374,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.982750213,8.0,FM4CS,pixelshuffle,0.125965,True,s1,0.043478261,138.0,170.0,0.039548023,0.048275862,7.0,,,Thor,4,0.133007,,0.119632,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.993106861,8.0,FM4CS,mlp,0.559266,True,s1,0.241830065,103.0,129.0,0.222891566,0.264285714,37.0,,,Thor,16,0.749426,,0.446078,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.990056162,8.0,FM4CS,mlp,0.196439,True,s1,0.140186916,139.0,45.0,0.25,0.097402597,15.0,,,Thor,32,0.480156,,0.123478,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.99423145,8.0,FM4CS,context_aware_mlp,0.519772,True,s1,0.201754386,85.0,97.0,0.191666667,0.212962963,23.0,,,Thor,16,0.711931,,0.409297,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.91673166,8.0,FM4CS,pixelshuffle,0.043329,True,s1,0.008652658,167.0,1437.0,0.004847645,0.040229885,7.0,,,Thor,32,0.024702,,0.176182,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.994762947,8.0,FM4CS,context_aware_mlp,0.686967,True,s1,0.406451613,64.0,120.0,0.344262295,0.496062992,63.0,,,Thor,8,0.809336,,0.596741,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.994853852,8.0,FM4CS,context_aware_mlp,0.680093,True,s1,0.379746835,79.0,117.0,0.338983051,0.431654676,60.0,,,Thor,4,0.877903,,0.555032,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.994831484,8.0,FM4CS,mlp,0.714263,True,s1,0.427860697,74.0,156.0,0.355371901,0.5375,86.0,,,Thor,4,0.840616,,0.620931,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.976280668,8.0,FM4CS,pixelshuffle,0.08869,True,s1,0.008733624,140.0,314.0,0.006329114,0.014084507,2.0,,,Thor,8,0.070033,,0.1209,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.991755811,8.0,FM4CS,mlp,0.562183,True,s1,0.25,122.0,136.0,0.240223464,0.260606061,43.0,,,Thor,16,0.7844,,0.438078,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.994439202,8.0,FM4CS,context_aware_mlp,0.715173,True,s1,0.447058824,76.0,159.0,0.374015748,0.555555556,95.0,,,Thor,8,0.791655,,0.652167,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.989650631,8.0,FM4CS,context_aware_mlp,0.0,True,s1,0.0,136.0,8.0,0.0,0.0,0.0,,,Thor,32,0.0,,0.0,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.995655177,8.0,FM4CS,context_aware_mlp,0.708817,True,s1,0.45,52.0,124.0,0.367346939,0.580645161,72.0,,,Thor,4,0.807187,,0.631818,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.994791532,8.0,FM4CS,mlp,0.717924,True,s1,0.484261501,71.0,142.0,0.41322314,0.584795322,100.0,,,Thor,8,0.812833,,0.642862,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.979357919,8.0,FM4CS,pixelshuffle,0.102603,True,s1,0.005524862,131.0,229.0,0.004347826,0.007575758,1.0,,,Thor,8,0.088287,,0.122461,,,,,Segmentation,,UC1: Flood Zone Mapping,,tiny,,
+0.929283082,8.0,FM4CS,pixelshuffle,0.043823,True,s1,0.004842615,136.0,1097.0,0.002727273,0.021582734,3.0,,,Thor,32,0.024925,,0.181229,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.994982775,8.0,FM4CS,mlp,0.730632,True,s1,0.5,53.0,121.0,0.418269231,0.621428571,87.0,,,Thor,4,0.858064,,0.636156,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.987507196,8.0,FM4CS,context_aware_mlp,0.001356,True,s1,0.0,151.0,33.0,0.0,0.0,0.0,,,Thor,32,0.003598,,0.000836,,,,,Segmentation,,UC1: Flood Zone Mapping,,base,,
+0.999756622,8.0,FM4CS,pixelshuffle,0.664266,True,s1,0.82320442,33.0,31.0,0.827777778,0.818681319,149.0,,,Terramind,16,0.759554,,0.590221,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.999612969,8.0,FM4CS,mlp,0.403823,True,s1,0.562130178,88.0,60.0,0.612903226,0.519125683,95.0,,,Terramind,16,0.537929,,0.323239,,,,,Object Detection,"[""LULC""]",UC4: Iceberg Detection and Monitoring,,tiny_tim,,
+0.999642623,8.0,FM4CS,pixelshuffle,0.35447,True,s1,0.552238806,106.0,14.0,0.840909091,0.411111111,74.0,,,Terramind,16,0.663525,,0.241831,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.999644697,8.0,FM4CS,mlp,0.495622,True,s1,0.675675676,58.0,62.0,0.668449198,0.683060109,125.0,,,Terramind,16,0.583989,,0.430483,,,,,Object Detection,"[""LULC""]",UC4: Iceberg Detection and Monitoring,,base_tim,,
+0.999615152,8.0,FM4CS,pixelshuffle,0.16243,True,s1,0.234146341,156.0,1.0,0.96,0.133333333,24.0,,,Terramind,16,0.652656,,0.092757,,,,,Object Detection,"[""LULC""]",UC4: Iceberg Detection and Monitoring,,tiny_tim,,
+0.999646493,8.0,FM4CS,mlp,0.512714,True,s1,0.644067797,69.0,57.0,0.666666667,0.62295082,114.0,,,Terramind,16,0.581278,,0.458619,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.999605449,8.0,FM4CS,mlp,0.447304,True,s1,0.604904632,72.0,73.0,0.60326087,0.606557377,111.0,,,Terramind,16,0.51778,,0.393715,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.999727847,8.0,FM4CS,pixelshuffle,0.588259,True,s1,0.748502994,57.0,27.0,0.822368421,0.686813187,125.0,,,Terramind,16,0.768277,,0.476587,,,,,Object Detection,"[""LULC""]",UC4: Iceberg Detection and Monitoring,,base_tim,,
+0.999737554,8.0,FM4CS,pixelshuffle,0.617308,True,s1,0.857142857,16.0,29.0,0.823170732,0.894039735,135.0,,,Thor,4,0.708802,,0.546734,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.999612363,8.0,FM4CS,pixelshuffle,0.148592,True,s1,0.233009709,151.0,7.0,0.774193548,0.137142857,24.0,,,Thor,16,0.614537,,0.084514,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.999592984,8.0,FM4CS,mlp,0.004801,True,s1,0.0,183.0,1.0,0.0,0.0,0.0,,,Thor,32,0.283422,,0.002421,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.999682121,8.0,FM4CS,pixelshuffle,0.434273,True,s1,0.618320611,85.0,15.0,0.84375,0.487951807,81.0,,,Thor,16,0.698092,,0.315166,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.999771951,8.0,FM4CS,mlp,0.698057,True,s1,0.819148936,27.0,41.0,0.78974359,0.850828729,154.0,,,Thor,8,0.74847,,0.654006,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.99966402,8.0,FM4CS,pixelshuffle,0.365319,True,s1,0.558951965,87.0,14.0,0.820512821,0.42384106,64.0,,,Thor,4,0.679929,,0.249755,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.999577815,8.0,FM4CS,mlp,0.317054,True,s1,0.429042904,118.0,55.0,0.541666667,0.355191257,65.0,,,Thor,16,0.460808,,0.241664,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.99959378,8.0,FM4CS,mlp,0.003634,True,s1,0.0,238.0,2.0,0.0,0.0,0.0,,,Thor,32,0.338983,,0.001827,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.999601052,8.0,FM4CS,pixelshuffle,0.023491,True,s1,0.017094017,230.0,0.0,1.0,0.00862069,2.0,,,Thor,32,0.767372,,0.011928,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.999697272,8.0,FM4CS,mlp,0.609226,True,s1,0.770114943,40.0,40.0,0.770114943,0.770114943,134.0,,,Thor,4,0.637359,,0.583472,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.99973708,8.0,FM4CS,pixelshuffle,0.602641,True,s1,0.822368421,27.0,27.0,0.822368421,0.822368421,125.0,,,Thor,8,0.726396,,0.514915,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.999637936,8.0,FM4CS,mlp,0.342084,True,s1,0.482269504,115.0,31.0,0.686868687,0.371584699,68.0,,,Thor,16,0.650038,,0.232118,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.999709345,8.0,FM4CS,mlp,0.601317,True,s1,0.75,54.0,32.0,0.801242236,0.704918033,129.0,,,Thor,8,0.680613,,0.538571,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.99966877,8.0,FM4CS,pixelshuffle,0.374467,True,s1,0.592274678,82.0,13.0,0.841463415,0.456953642,69.0,,,Thor,8,0.696426,,0.25608,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,tiny,,
+0.999631561,8.0,FM4CS,pixelshuffle,0.161909,True,s1,0.258706468,144.0,5.0,0.838709677,0.152941176,26.0,,,Thor,32,0.723922,,0.091147,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+0.999780628,8.0,FM4CS,mlp,0.680676,True,s1,0.842391304,26.0,32.0,0.828877005,0.856353591,155.0,,,Thor,4,0.823506,,0.580068,,,,,Object Detection,,UC4: Iceberg Detection and Monitoring,,base,,
+,,FM4CS,upernet,,False,S3,,,,,,,,2.204192876815796,Thor,4,,5.922155380249023,,dsnm4wkc,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,False,S3,,,,,,,,2.3045873641967773,Thor,4,,6.225119590759277,,4g3dxgbb,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,upernet,,False,S3,,,,,,,,2.40682315826416,Thor,4,,6.437461853027344,,5d0e0csh,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,True,S3,,,,,,,,2.456291913986206,Thor,4,,6.4654860496521,,o1uzn8kn,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,True,S3,,,,,,,,2.55095648765564,Thor,4,,6.78203010559082,,nipofl5o,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,False,S3,,,,,,,,2.6167666912078857,Thor,8,,6.951375484466553,,nxs7sygm,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,False,S3,,,,,,,,2.571580410003662,Thor,4,,7.104368209838867,,ccpgq5bm,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,False,S3,,,,,,,,2.7486114501953125,Thor,8,,7.293087482452393,,obli857q,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,upernet,,False,S3,,,,,,,,3.114868640899658,Thor,8,,7.7210588455200195,,u1sqdf14,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,True,S3,,,,,,,,2.943490028381348,Thor,8,,7.744840621948242,,l0racqyo,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,True,S3,,,,,,,,3.098872423171997,Thor,8,,8.0822172164917,,i0hffwz3,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,False,S3,,,,,,,,3.09251070022583,Thor,8,,8.375823020935059,,rl6ui3qc,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,linear,,False,S3,,,,,,,,3.3576772212982178,Thor,16,,8.8797607421875,,dhoa4e52,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,upernet,,False,S3,,,,,,,,3.4278564453125,Terramind,16,,8.956361770629883,,2ii4txa7,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,upernet,,True,S3,,,,,,,,3.6428182125091553,Terramind,16,,9.189557075500488,,70mtpaf3,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,upernet,,False,S3,,,,,,,,3.5713257789611816,Terramind,16,,9.196969032287598,,ffwahyep,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,False,S3,,,,,,,,3.610318183898926,Thor,16,,9.230091094970703,,fqa9i26e,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,False,S3,,,,,,,,3.5929346084594727,Thor,16,,9.258458137512209,,vgsawlxm,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,False,S3,,,,,,,,3.492624521255493,Terramind,16,,9.444097518920898,,mnhdocge,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,upernet,,True,S3,,,,,,,,3.931976079940796,Terramind,16,,9.517285346984863,,pb1s74t9,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,True,S3,,,,,,,,3.805346727371216,Thor,16,,10.009366035461426,,emthkq8y,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,True,S3,,,,,,,,3.8175995349884033,Thor,16,,10.062987327575684,,ig1183s4,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,True,S3,,,,,,,,6.1305694580078125,Thor,4,,11.762155532836914,,b0rq6167,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,False,S3,,,,,,,,4.495948791503906,Thor,16,,12.308148384094238,,gi342shw,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,linear,,False,S3,,,,,,,,4.495981693267822,Terramind,16,,12.42270565032959,,kiwrq1dp,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,linear,,True,S3,,,,,,,,6.782033920288086,Thor,8,,13.043617248535156,,xcby6u7l,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,True,S3,,,,,,,,8.16535758972168,Thor,4,,13.513450622558594,,mk5hejzp,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,linear,,True,S3,,,,,,,,7.662848949432373,Thor,16,,14.53421688079834,,9t9efcze,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,upernet,,False,S3,,,,,,,,5.373876094818115,Thor,32,,14.567729949951172,,97831wkm,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,upernet,,False,S3,,,,,,,,5.459229469299316,Thor,32,,14.640511512756348,,az4i31ju,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,True,S3,,,,,,,,5.512228488922119,Thor,32,,14.81246852874756,,kcomxa9o,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,upernet,,True,S3,,,,,,,,5.550680637359619,Thor,32,,14.87662410736084,,naqb91ie,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,True,S3,,,,,,,,8.951857566833496,Thor,8,,14.90087890625,,bhea62wl,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,linear,,True,S3,,,,,,,,9.200302124023438,Terramind,16,,15.258756637573242,,ckcz8ab4,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,True,S3,,,,,,,,9.718475341796877,Thor,16,,16.51833152770996,,1ygexgbv,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,linear,,False,S3,,,,,,,,5.986941337585449,Thor,32,,16.74753189086914,,2emf0lm2,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,True,S3,,,,,,,,11.614694595336914,Terramind,16,,18.218372344970703,,g125enmo,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,linear,,True,S3,,,,,,,,9.21482276916504,Thor,32,,18.28068733215332,,7tx6joi7,,,,Regression,,UC5: Snow Monitoring for Hydrology,,base,,
+,,FM4CS,linear,,False,S3,,,,,,,,6.638059616088867,Thor,32,,18.3735408782959,,oq6b3n87,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+,,FM4CS,linear,,True,S3,,,,,,,,11.662642478942873,Thor,32,,19.855541229248047,,z9u0jukd,,,,Regression,,UC5: Snow Monitoring for Hydrology,,tiny,,
+0.6837628483772278,,FM4CS,linear,0.6419979333877563,False,S1,,,,,,,"[0.8014640212059021, 0.2474702149629593, 0.4699901044368744, '', '', '']",0.5089081525802612,Thor,16,,,,d2lvye28,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.5063081383705139,0.6390699744224548
+0.7827321887016296,,FM4CS,linear,0.7840487360954285,False,S1,,,,,,,"[0.9382006525993348, 0.4244345426559448, 0.6502972841262817, '', '', '']",0.3117927610874176,Terramind,16,,,,csqd4ngc,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.6709774732589722,0.8346065878868103
+0.7892931699752808,,FM4CS,linear,0.7970977425575256,False,S1,,,,,,,"[0.9523741006851196, 0.4985582828521729, 0.6003881692886353, '', '', '']",0.2162583321332931,Thor,8,,,,canrpt87,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.6837735176086426,0.8520492911338806
+0.6179105639457703,,FM4CS,linear,0.5655744075775146,True,S1,,,,,,,"[0.7484618425369263, 0.219261810183525, 0.3165885806083679, '', '', '']",0.6987611055374146,Thor,4,,,,e68cy6e6,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.4281040728092193,0.5819845199584961
+0.7409977316856384,,FM4CS,linear,0.6961948275566101,True,S1,,,,,,,"[0.8032851815223694, 0.2727272808551788, 0.6248273253440857, '', '', '']",0.6252754926681519,Thor,8,,,,bqx4w97k,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.5669466257095337,0.6674873232841492
+0.6297023892402649,,FM4CS,upernet,0.6444730162620544,False,S1,,,,,,,"[0.9254536628723145, 0.2444555759429931, 0.4077207744121551, '', '', '']",0.4461199045181274,Terramind,16,,,,epjvphu8,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.5258767008781433,0.7658042907714844
+0.879392147064209,,FM4CS,upernet,0.900128960609436,False,S1,,,,,,,"[0.9517690539360046, 0.6086866855621338, 0.9386387467384338, '', '', '']",0.2317523807287216,Thor,8,,,,f8vs5m33,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.8330315351486206,0.9118345379829408
+0.6672537326812744,,FM4CS,upernet,0.6607146859169006,False,S1,,,,,,,"[0.9437462687492372, 0.3449844419956207, 0.3316386342048645, '', '', '']",0.4224378168582916,Thor,32,,,,ff27z8sw,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.5401231050491333,0.7767010927200317
+0.7459148168563843,,FM4CS,linear,0.605141282081604,True,S1,,,,,,,"[0.6919008493423462, 0.2954827845096588, 0.3711328506469726, '', '', '']",0.7846939563751221,Thor,8,,,,cz2bcx7u,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.4528388381004333,0.5520409941673279
+0.8893024921417236,,FM4CS,upernet,0.8785998821258545,False,S1,,,,,,,"[0.9263643026351928, 0.5385669469833374, 0.9491958618164062, '', '', '']",0.2816347479820251,Thor,8,,,,bqring03,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.8047090172767639,0.8767912983894348
+0.8332781195640564,,FM4CS,linear,0.824555516242981,False,S1,,,,,,,"[0.9259370565414428, 0.4345075786113739, 0.8287031054496765, '', '', '']",0.3341894149780273,Thor,16,,,,bkvymi69,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.7297159433364868,0.8525510430335999
+0.731221079826355,,FM4CS,upernet,0.7067988514900208,True,S1,,,,,,,"[0.8856318593025208, 0.3544199466705322, 0.4899753332138061, '', '', '']",0.5113843679428101,Thor,8,,,,aek25zoh,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.5766757130622864,0.7457314729690552
+0.6994761824607849,,FM4CS,upernet,0.7114966511726379,True,S2,,,,,,,"[0.310339868068695, 0.5447044968605042, 0.7061492800712585, 0.8195347189903259, 0.3347326815128326, 0.7542127966880798]",0.9125745296478271,Thor,16,,,,gjtvt9ri,,,,Segmentation,,UC6: Wetland Mapping,,base,0.5782789587974548,0.7057871222496033
+0.8582000136375427,,FM4CS,upernet,0.848282516002655,False,S1,,,,,,,"[0.9458197355270386, 0.5195168256759644, 0.800017774105072, '', '', '']",0.2006486058235168,Terramind,16,,,,gxh8keiu,,,,Segmentation,"[""LULC""]",UC3: Sea Ice Mapping,,tiny_tim,0.7551181316375732,0.8808318376541138
+,,FM4CS,linear,,False,S1,,,,,,,,,Thor,32,,,,huc90e4u,,,,Segmentation,,UC3: Sea Ice Mapping,,base,,
+0.5948904752731323,,FM4CS,linear,0.6112092137336731,True,S2,,,,,,,"[0.122771754860878, 0.4555875658988952, 0.622753918170929, 0.7383413910865784, 0.2434253543615341, 0.6863855123519897]",1.1913394927978516,Thor,16,,,,hygkbjhr,,,,Segmentation,,UC6: Wetland Mapping,,base,0.4782108962535858,0.6206008791923523
+0.689545750617981,,FM4CS,linear,0.6771536469459534,False,S1,,,,,,,"[0.8994424939155579, 0.3067882359027862, 0.443909078836441, '', '', '']",0.442695677280426,Thor,32,,,,9fzjauxm,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.5500466227531433,0.7458657622337341
+0.7319992780685425,,FM4CS,upernet,0.713757336139679,True,S1,,,,,,,"[0.8965992331504822, 0.3651893436908722, 0.4934170842170715, '', '', '']",0.5338161587715149,Thor,16,,,,95rng9fx,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.5850685834884644,0.759695827960968
+0.9081432223320008,,FM4CS,linear,0.9058924913406372,False,S1,,,,,,,"[0.9519872665405272, 0.6400636434555054, 0.9262982606887816, '', '', '']",0.1574421823024749,Thor,4,,,,iupeijnl,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.8394497036933899,0.9108413457870485
+0.7473574280738831,,FM4CS,upernet,0.7625219821929932,True,S2,,,,,,,"[0.3725790977478027, 0.6151434779167175, 0.7647985219955444, 0.8324839472770691, 0.4465048313140869, 0.7823007106781006]",0.7674384713172913,Thor,4,,,,iyl55a0p,,,,Segmentation,,UC6: Wetland Mapping,,base,0.6356351375579834,0.7555628418922424
+0.42629075050354,,FM4CS,linear,0.2910279631614685,True,S1,,,,,,,"[0.4151739180088043, 0.1416503489017486, 0.0194654632359743, '', '', '']",1.1075111627578735,Terramind,16,,,,k1bbono6,,,,Segmentation,"[""LULC""]",UC3: Sea Ice Mapping,,base_tim,0.1920965760946273,0.2693866193294525
+0.7049471139907837,,FM4CS,upernet,0.6398334503173828,True,S1,,,,,,,"[0.8306321501731873, 0.39958056807518, 0.2828890383243561, '', '', '']",0.5686286091804504,Terramind,16,,,,k659tz63,,,,Segmentation,"[""LULC""]",UC3: Sea Ice Mapping,,base_tim,0.5043672323226929,0.6789936423301697
+0.7164488434791565,,FM4CS,upernet,0.709239661693573,True,S1,,,,,,,"[0.9008896350860596, 0.3532383739948272, 0.4900844097137451, '', '', '']",0.5149028897285461,Thor,32,,,,8k6sni4v,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.5814041495323181,0.7637867331504822
+0.3882721066474914,,FM4CS,linear,0.1597381979227066,True,S1,,,,,,,"[0.0567422918975353, 0.1988137811422348, 0.0204807519912719, '', '', '']",1.2719407081604004,Terramind,16,,,,7pz4rlr7,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.092012271285057,0.0850991755723953
+0.771004319190979,,FM4CS,linear,0.7616469264030457,False,S1,,,,,,,"[0.9469755291938782, 0.4747545719146729, 0.5018768906593323, '', '', '']",0.2334766387939453,Terramind,16,,,,7plkcl4g,,,,Segmentation,"[""LULC""]",UC3: Sea Ice Mapping,,base_tim,0.6412023305892944,0.8280043601989746
+0.8705892562866211,,FM4CS,linear,0.818526029586792,False,S1,,,,,,,"[0.8505282998085022, 0.3794379234313965, 0.9728077054023744, '', '', '']",0.2711356878280639,Thor,8,,,,m298whke,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.7342579960823059,0.7770147919654846
+0.7946423888206482,,FM4CS,linear,0.7273635864257812,True,S1,,,,,,,"[0.7984470725059509, 0.3112299144268036, 0.6941210031509399, '', '', '']",0.602649450302124,Thor,16,,,,m35nmukb,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.6012659668922424,0.6814788579940796
+0.7481949925422668,,FM4CS,upernet,0.7616498470306396,True,S1,,,,,,,"[0.9472729563713074, 0.4462938606739044, 0.5324164628982544, '', '', '']",0.354099839925766,Thor,4,,,,mjrget5o,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.6419944167137146,0.8325516581535339
+0.6449083089828491,,FM4CS,linear,0.64267498254776,True,S2,,,,,,,"[0.1681001931428909, 0.5134080052375793, 0.6222126483917236, 0.7422099113464355, 0.2975012063980102, 0.6835416555404663]",1.1110596656799316,Terramind,16,,,,7fxqsyjb,,,,Segmentation,,UC6: Wetland Mapping,,base,0.5044956207275391,0.6298304796218872
+0.7576754093170166,,FM4CS,upernet,0.7761282324790955,False,S1,,,,,,,"[0.966145932674408, 0.4975691139698028, 0.5164161324501038, '', '', '']",0.1912196427583694,Thor,4,,,,mn9h99of,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.6600437164306641,0.8564748167991638
+0.7995250225067139,,FM4CS,upernet,0.7847065925598145,False,S1,,,,,,,"[0.9515899419784546, 0.5105106830596924, 0.5419970154762268, '', '', '']",0.1443734914064407,Terramind,16,,,,72rsdxrq,,,,Segmentation,"[""LULC""]",UC3: Sea Ice Mapping,,base_tim,0.6680325269699097,0.8416095972061157
+0.83226478099823,,FM4CS,linear,0.8237106204032898,False,S1,,,,,,,"[0.9404518604278564, 0.4889437258243561, 0.7316824197769165, '', '', '']",0.2999652028083801,Terramind,16,,,,mzypqmir,,,,Segmentation,"[""LULC""]",UC3: Sea Ice Mapping,,tiny_tim,0.7203593254089355,0.8618472218513489
+0.6976776123046875,,FM4CS,upernet,0.6911337375640869,False,S1,,,,,,,"[0.9056361317634584, 0.2777031362056732, 0.5246556997299194, '', '', '']",0.3483140170574188,Thor,16,,,,65pm3r8n,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.5693316459655762,0.7624083757400513
+0.9267632365226746,,FM4CS,upernet,0.927965760231018,False,S1,,,,,,,"[0.964020013809204, 0.7109377384185791, 0.9439490437507628, '', '', '']",0.1672381609678268,Thor,4,,,,536g10ir,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.8729689121246338,0.9324736595153807
+0.7512695789337158,,FM4CS,upernet,0.7420682907104492,True,S1,,,,,,,"[0.9232038259506226, 0.41425222158432, 0.5155088305473328, '', '', '']",0.4609193205833435,Thor,8,,,,4ybob2y8,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.6176549196243286,0.7978631854057312
+0.6599102020263672,,FM4CS,linear,0.6794861555099487,True,S2,,,,,,,"[0.2271491736173629, 0.5116411447525024, 0.6854305863380432, 0.7672311663627625, 0.341059535741806, 0.7233779430389404]",1.0367738008499146,Thor,4,,,,4v5ql19h,,,,Segmentation,,UC6: Wetland Mapping,,base,0.5426482558250427,0.6779710054397583
+0.4114131927490234,,FM4CS,linear,0.2300134301185608,True,S1,,,,,,,"[0.2204019427299499, 0.1187204644083976, 0.061910081654787, '', '', '']",1.1398870944976809,Thor,4,,,,4qhdgjgi,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.1336774975061416,0.1618542373180389
+0.7530163526535034,,FM4CS,linear,0.7495988011360168,False,S1,,,,,,,"[0.9419382810592652, 0.4475439786911011, 0.4929226636886596, '', '', '']",0.2965643405914306,Terramind,16,,,,od1bd1ql,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.6274682879447937,0.8192345499992371
+0.7456026077270508,,FM4CS,upernet,0.7424402236938477,True,S1,,,,,,,"[0.9228714108467102, 0.4036445021629333, 0.5293956995010376, '', '', '']",0.4316658973693848,Thor,16,,,,4mib4102,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.618637204170227,0.7987909317016602
+0.6030863523483276,,FM4CS,upernet,0.6124932765960693,True,S1,,,,,,,"[0.8819113969802856, 0.1862522959709167, 0.4146382808685303, '', '', '']",0.53364098072052,Terramind,16,,,,3lsqemam,,,,Segmentation,"[""LULC""]",UC3: Sea Ice Mapping,,tiny_tim,0.4942673146724701,0.7088850736618042
+0.6596423983573914,,FM4CS,upernet,0.619074821472168,False,S1,,,,,,,"[0.8435224294662476, 0.2386875599622726, 0.3857288956642151, '', '', '']",0.4080868065357208,Thor,16,,,,pf9cl4ok,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.4893129765987396,0.6660601496696472
+0.6742570400238037,,FM4CS,upernet,0.6812241077423096,False,S1,,,,,,,"[0.932875633239746, 0.3188702762126922, 0.423335075378418, '', '', '']",0.3613983988761902,Terramind,16,,,,2mhmnszc,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.5583603382110596,0.7814366221427917
+0.6240960359573364,,FM4CS,upernet,0.6253533363342285,True,S2,,,,,,,"[0.2213305681943893, 0.4136388897895813, 0.6478031873703003, 0.7393220067024231, 0.2249689102172851, 0.6677392721176147]",1.2421702146530151,Thor,32,,,,rylmlrzl,,,,Segmentation,,UC6: Wetland Mapping,,base,0.4858004450798034,0.6287052631378174
+0.616304874420166,,FM4CS,linear,0.4045422971248626,True,S1,,,,,,,"[0.3711151480674744, 0.2912440896034241, 0.1243455410003662, '', '', '']",0.937474489212036,Thor,16,,,,ssf55pfk,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.2622349262237549,0.2873424887657165
+0.6972734332084656,,FM4CS,upernet,0.659393310546875,False,S1,,,,,,,"[0.8092169165611267, 0.2571593821048736, 0.5088859796524048, '', '', '']",0.4700670838356018,Thor,32,,,,t4w3d16i,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.5250874757766724,0.6535524725914001
+0.6434236764907837,,FM4CS,upernet,0.6169832944869995,True,S1,,,,,,,"[0.816910982131958, 0.2477586567401886, 0.3836936056613922, '', '', '']",0.6061534881591797,Terramind,16,,,,ta5vma1n,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.4827877879142761,0.648146390914917
+0.6928485631942749,,FM4CS,linear,0.6033905744552612,True,S1,,,,,,,"[0.727820873260498, 0.2571491599082947, 0.3875400424003601, '', '', '']",0.728584885597229,Thor,32,,,,2a4htr9o,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.4575033485889435,0.5722147822380066
+0.771056056022644,,FM4CS,linear,0.7843203544616699,False,S1,,,,,,,"[0.9606077075004578, 0.4987271130084991, 0.5474112033843994, '', '', '']",0.1852030754089355,Thor,4,,,,uc5vmm60,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.668915331363678,0.8541901111602783
+0.6766105890274048,,FM4CS,upernet,0.6943987607955933,True,S2,,,,,,,"[0.2584660947322845, 0.5424438118934631, 0.7052080631256104, 0.7832264304161072, 0.3329894542694092, 0.734755277633667]",0.9685709476470948,Thor,8,,,,1d8idvlv,,,,Segmentation,,UC6: Wetland Mapping,,base,0.5595148205757141,0.6900500655174255
+0.5871200561523438,,FM4CS,upernet,0.509498119354248,True,S1,,,,,,,"[0.855132520198822, 0.3918429315090179, 0.0222482644021511, '', '', '']",0.5278857350349426,Terramind,16,,,,wq8m35zw,,,,Segmentation,,UC3: Sea Ice Mapping,,base,0.4230745732784271,0.7006843090057373
+0.3385145366191864,,FM4CS,linear,0.1349672228097915,True,S1,,,,,,,"[0.0597042925655841, 0.0989917442202568, 0.0593616068363189, '', '', '']",1.1792325973510742,Terramind,16,,,,x6pmyxe3,,,,Segmentation,"[""LULC""]",UC3: Sea Ice Mapping,,tiny_tim,0.07268588244915,0.0778964087367057
+0.6356251835823059,,FM4CS,linear,0.3430507183074951,True,S1,,,,,,,"[0.1855926662683487, 0.31894451379776, 0.1315008401870727, '', '', '']",1.1087294816970823,Thor,32,,,,0fsq9cgh,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.2120126783847808,0.1922197341918945
+0.3326194882392883,,FM4CS,linear,0.0941348522901535,True,S1,,,,,,,"[0.0177919790148735, 0.0995929464697837, 0.0342852734029293, '', '', '']",1.206101894378662,Terramind,16,,,,xiltui7r,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.0505567342042923,0.0598190575838089
+0.8771780133247375,,FM4CS,upernet,0.8938661217689514,True,S1,,,,,,,"[0.9459720849990844, 0.5850443243980408, 0.943930685520172, '', '', '']",0.3315290212631225,Thor,4,,,,xzd1eox3,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.8249823451042175,0.904040277004242
+0.7242624163627625,,FM4CS,upernet,0.7391570210456848,True,S1,,,,,,,"[0.9284194707870485, 0.3869341909885406, 0.5344710946083069, '', '', '']",0.56601482629776,Thor,32,,,,yzpo2z40,,,,Segmentation,,UC3: Sea Ice Mapping,,tiny,0.6166082620620728,0.8066449165344238
+0.7744477391242981,,FM4CS,upernet,0.774827778339386,True,S2,,,,,,,"[0.4711264669895172, 0.6334598660469055, 0.764443039894104, 0.8473616242408752, 0.4407672882080078, 0.7198980450630188]",0.7221843600273132,Terramind,16,,,,01jtm493,,,,Segmentation,,UC6: Wetland Mapping,,base,0.6461760997772217,0.7592666149139404

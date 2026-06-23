@@ -1,0 +1,251 @@
+backbone,backbone_size,dataset,image_size,task,patch_size,backbone_modalities,backbone_bands,decoder,token_count,gmacs_encoder,gmacs_decoder,gmacs_total,params_M
+thor,tiny,snow,144,segmentation,4,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",,1296.0,6.903545856,,6.903545856,7.608896
+thor,tiny,snow,144,segmentation,4,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",linear,,6.903545856,0.0570654719999996,6.960611328,7.614786
+thor,tiny,snow,144,segmentation,4,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",upernet,,6.903545856,78.853668864,85.75721472,15.584753
+thor,tiny,snow,144,segmentation,8,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",,324.0,1.755561984,,1.755561984,7.608896
+thor,tiny,snow,144,segmentation,8,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",linear,,1.755561984,0.0570654719999998,1.812627456,7.624002
+thor,tiny,snow,144,segmentation,8,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",upernet,,1.755561984,19.715260416,21.4708224,15.584753
+thor,tiny,snow,144,segmentation,16,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",,81.0,0.449888256,,0.449888256,7.608896
+thor,tiny,snow,144,segmentation,16,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",linear,,0.449888256,0.057065472,0.506953728,7.660866
+thor,tiny,snow,144,segmentation,16,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",upernet,,0.449888256,4.918751232,5.368639488,15.584753
+thor,tiny,snow,144,segmentation,32,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",,16.0,0.352321536,,0.352321536,7.608896
+thor,tiny,snow,144,segmentation,32,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",linear,,0.352321536,0.045088768,0.397410304,7.808322
+thor,tiny,snow,144,segmentation,32,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",upernet,,0.352321536,0.975929344,1.32825088,15.584753
+terramind,tiny,snow,144,segmentation,16,['S2L2A'],"{'S2L2A': ['GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",,81.0,0.449888256,,0.449888256,5.579904
+terramind,tiny,snow,144,segmentation,16,['S2L2A'],"{'S2L2A': ['GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",linear,,0.449888256,0.110470144,0.5603584,5.629059
+terramind,tiny,snow,144,segmentation,16,['S2L2A'],"{'S2L2A': ['GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",upernet,,0.449888256,5.248466944,5.6983552,12.965681
+thor,base,snow,144,segmentation,4,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",,1296.0,110.170669056,,110.170669056,94.136576
+thor,base,snow,144,segmentation,4,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",linear,,110.170669056,0.0690094079999994,110.239678464,94.151682
+thor,base,snow,144,segmentation,4,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",upernet,,110.170669056,84.928561152,195.099230208,106.777025
+thor,base,snow,144,segmentation,8,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",,324.0,27.661369344,,27.661369344,94.136576
+thor,base,snow,144,segmentation,8,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",linear,,27.661369344,0.0690094079999994,27.730378752,94.188546
+thor,base,snow,144,segmentation,8,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",upernet,,27.661369344,21.239513088,48.900882432,106.777025
+thor,base,snow,144,segmentation,16,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",,81.0,6.959333376,,6.959333376,94.136576
+thor,base,snow,144,segmentation,16,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",linear,,6.959333376,0.0690094080000003,7.028342784,94.336002
+thor,base,snow,144,segmentation,16,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",upernet,,6.959333376,5.299703808,12.259037184,106.777025
+thor,base,snow,144,segmentation,32,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",,16.0,2.428502016,,2.428502016,94.136576
+thor,base,snow,144,segmentation,32,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",linear,,2.428502016,0.0545259520000001,2.483027968,94.925826
+thor,base,snow,144,segmentation,32,,"['S1_REFLECTANCE_AN', 'S2_REFLECTANCE_AN', 'S3_REFLECTANCE_AN', 'S5_REFLECTANCE_AN', 'S6_REFLECTANCE_AN']",upernet,,2.428502016,1.058209792,3.486711808,106.777025
+terramind,base,snow,144,segmentation,16,['S2L2A'],"{'S2L2A': ['GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",,81.0,6.959333376,,6.959333376,85.937664
+terramind,base,snow,144,segmentation,16,['S2L2A'],"{'S2L2A': ['GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",linear,,6.959333376,1.6521226240000004,8.611456,86.134275
+terramind,base,snow,144,segmentation,16,['S2L2A'],"{'S2L2A': ['GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",upernet,,6.959333376,7.250919423999999,14.2102528,97.988033
+thor,tiny,seaice,224,segmentation,4,,"['EW_HH', 'EW_HV']",,3136.0,16.668033024,,16.668033024,7.608896
+thor,tiny,seaice,224,segmentation,4,,"['EW_HH', 'EW_HV']",linear,,16.668033024,0.4142530559999997,17.08228608,7.626054
+thor,tiny,seaice,224,segmentation,4,,"['EW_HH', 'EW_HV']",upernet,,16.668033024,190.828609536,207.49664256,15.585267
+thor,tiny,seaice,224,segmentation,8,,"['EW_HH', 'EW_HV']",,784.0,4.187357184,,4.187357184,7.608896
+thor,tiny,seaice,224,segmentation,8,,"['EW_HH', 'EW_HV']",linear,,4.187357184,0.4142530560000006,4.60161024,7.653702
+thor,tiny,seaice,224,segmentation,8,,"['EW_HH', 'EW_HV']",upernet,,4.187357184,47.708995584,51.896352768,15.585267
+thor,tiny,seaice,224,segmentation,16,,"['EW_HH', 'EW_HV']",,196.0,1.05971712,,1.05971712,7.608896
+thor,tiny,seaice,224,segmentation,16,,"['EW_HH', 'EW_HV']",linear,,1.05971712,0.4142530559999999,1.473970176,7.764294
+thor,tiny,seaice,224,segmentation,16,,"['EW_HH', 'EW_HV']",upernet,,1.05971712,11.929092096,12.988809216,15.585267
+thor,tiny,seaice,224,segmentation,32,,"['EW_HH', 'EW_HV']",,49.0,0.380043264,,0.380043264,7.608896
+thor,tiny,seaice,224,segmentation,32,,"['EW_HH', 'EW_HV']",linear,,0.380043264,0.4142530559999999,0.79429632,8.206662
+thor,tiny,seaice,224,segmentation,32,,"['EW_HH', 'EW_HV']",upernet,,0.380043264,2.975010816,3.35505408,15.585267
+terramind,tiny,seaice,224,segmentation,16,['S1GRD'],"{'S1GRD': ['HH', 'HV']}",,196.0,1.05971712,,1.05971712,5.432448
+terramind,tiny,seaice,224,segmentation,16,['S1GRD'],"{'S1GRD': ['HH', 'HV']}",linear,,1.05971712,0.0293529599999999,1.08907008,5.579919
+terramind,tiny,seaice,224,segmentation,16,['S1GRD'],"{'S1GRD': ['HH', 'HV']}",upernet,,1.05971712,10.079404032,11.139121152,12.818739
+thor,base,seaice,224,segmentation,4,,"['EW_HH', 'EW_HV']",,3136.0,266.438443008,,266.438443008,94.136576
+thor,base,seaice,224,segmentation,4,,"['EW_HH', 'EW_HV']",linear,,266.438443008,0.5009571840000149,266.939400192,94.181382
+thor,base,seaice,224,segmentation,4,,"['EW_HH', 'EW_HV']",upernet,,266.438443008,205.51788134400005,471.956324352,106.777539
+thor,base,seaice,224,segmentation,8,,"['EW_HH', 'EW_HV']",,784.0,66.691006464,,66.691006464,94.136576
+thor,base,seaice,224,segmentation,8,,"['EW_HH', 'EW_HV']",linear,,66.691006464,0.5009571840000007,67.191963648,94.291974
+thor,base,seaice,224,segmentation,8,,"['EW_HH', 'EW_HV']",upernet,,66.691006464,51.386843136,118.0778496,106.777539
+thor,base,seaice,224,segmentation,16,,"['EW_HH', 'EW_HV']",,196.0,16.724262912,,16.724262912,94.136576
+thor,base,seaice,224,segmentation,16,,"['EW_HH', 'EW_HV']",linear,,16.724262912,0.5009571840000007,17.225220096,94.734342
+thor,base,seaice,224,segmentation,16,,"['EW_HH', 'EW_HV']",upernet,,16.724262912,12.854083584,29.578346496,106.777539
+thor,base,seaice,224,segmentation,32,,"['EW_HH', 'EW_HV']",,49.0,4.641521664,,4.641521664,94.136576
+thor,base,seaice,224,segmentation,32,,"['EW_HH', 'EW_HV']",linear,,4.641521664,0.5009571839999998,5.142478848,96.503814
+thor,base,seaice,224,segmentation,32,,"['EW_HH', 'EW_HV']",upernet,,4.641521664,3.2074752,7.848996864,106.777539
+terramind,base,seaice,224,segmentation,16,['S1GRD'],"{'S1GRD': ['HH', 'HV']}",,196.0,16.724262912,,16.724262912,85.34784
+terramind,base,seaice,224,segmentation,16,['S1GRD'],"{'S1GRD': ['HH', 'HV']}",linear,,16.724262912,0.116057087999998,16.84032,85.937679
+terramind,base,seaice,224,segmentation,16,['S1GRD'],"{'S1GRD': ['HH', 'HV']}",upernet,,16.724262912,11.00439552,27.728658432,97.398723
+thor,tiny,iceberg,256,segmentation,4,,"['IW_VV', 'IW_VH']",,4096.0,21.770010624,,21.770010624,7.608896
+thor,tiny,iceberg,256,segmentation,4,,"['IW_VV', 'IW_VH']",mlp,,21.770010624,0.117702656,21.88771328,0.028898
+thor,tiny,iceberg,256,segmentation,4,,"['IW_VV', 'IW_VH']",pixelshuffle,,21.770010624,0.025165824,21.795176448,0.006176
+thor,tiny,iceberg,256,segmentation,8,,"['IW_VV', 'IW_VH']",,1024.0,5.467275264,,5.467275264,7.608896
+thor,tiny,iceberg,256,segmentation,8,,"['IW_VV', 'IW_VH']",mlp,,5.467275264,0.029425664,5.496700928,0.028898
+thor,tiny,iceberg,256,segmentation,8,,"['IW_VV', 'IW_VH']",pixelshuffle,,5.467275264,0.025165824,5.4924410880000005,0.024704
+thor,tiny,iceberg,256,segmentation,16,,"['IW_VV', 'IW_VH']",,256.0,1.38412032,,1.38412032,7.608896
+thor,tiny,iceberg,256,segmentation,16,,"['IW_VV', 'IW_VH']",mlp,,1.38412032,0.007356416,1.391476736,0.028898
+thor,tiny,iceberg,256,segmentation,16,,"['IW_VV', 'IW_VH']",pixelshuffle,,1.38412032,0.025165824,1.409286144,0.098816
+thor,tiny,iceberg,256,segmentation,32,,"['IW_VV', 'IW_VH']",,64.0,0.465567744,,0.465567744,7.608896
+thor,tiny,iceberg,256,segmentation,32,,"['IW_VV', 'IW_VH']",mlp,,0.465567744,0.001839104,0.467406848,0.028898
+thor,tiny,iceberg,256,segmentation,32,,"['IW_VV', 'IW_VH']",pixelshuffle,,0.465567744,0.025165824,0.490733568,0.395264
+terramind,tiny,iceberg,256,segmentation,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",,256.0,1.38412032,,1.38412032,5.432448
+terramind,tiny,iceberg,256,segmentation,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",mlp,,1.38412032,0.007356416,1.391476736,0.028898
+terramind,tiny,iceberg,256,segmentation,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",pixelshuffle,,1.38412032,0.025165824,1.409286144,0.098816
+thor,base,iceberg,256,segmentation,4,,"['IW_VV', 'IW_VH']",,4096.0,347.999305728,,347.999305728,94.136576
+thor,base,iceberg,256,segmentation,4,,"['IW_VV', 'IW_VH']",mlp,,347.999305728,0.419692544,348.418998272,0.102626
+thor,base,iceberg,256,segmentation,4,,"['IW_VV', 'IW_VH']",pixelshuffle,,347.999305728,0.100663296,348.099969024,0.024608
+thor,base,iceberg,256,segmentation,8,,"['IW_VV', 'IW_VH']",,1024.0,87.098916864,,87.098916864,94.136576
+thor,base,iceberg,256,segmentation,8,,"['IW_VV', 'IW_VH']",mlp,,87.098916864,0.104923136,87.20384,0.102626
+thor,base,iceberg,256,segmentation,8,,"['IW_VV', 'IW_VH']",pixelshuffle,,87.098916864,0.100663296,87.19958016,0.098432
+thor,base,iceberg,256,segmentation,16,,"['IW_VV', 'IW_VH']",,256.0,21.843935232,,21.843935232,94.136576
+thor,base,iceberg,256,segmentation,16,,"['IW_VV', 'IW_VH']",mlp,,21.843935232,0.026230784,21.870166016,0.102626
+thor,base,iceberg,256,segmentation,16,,"['IW_VV', 'IW_VH']",pixelshuffle,,21.843935232,0.100663296,21.944598528,0.393728
+thor,base,iceberg,256,segmentation,32,,"['IW_VV', 'IW_VH']",,64.0,5.939134464,,5.939134464,94.136576
+thor,base,iceberg,256,segmentation,32,,"['IW_VV', 'IW_VH']",mlp,,5.939134464,0.006557696,5.94569216,0.102626
+thor,base,iceberg,256,segmentation,32,,"['IW_VV', 'IW_VH']",pixelshuffle,,5.939134464,0.100663296,6.03979776,1.574912
+terramind,base,iceberg,256,segmentation,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",,256.0,21.843935232,,21.843935232,85.34784
+terramind,base,iceberg,256,segmentation,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",mlp,,21.843935232,0.026230784,21.870166016,0.102626
+terramind,base,iceberg,256,segmentation,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",pixelshuffle,,21.843935232,0.100663296,21.944598528,0.393728
+thor,tiny,mires,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,6480.0,34.493988864,,34.493988864,7.608896
+thor,tiny,mires,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,34.493988864,1.4651228159999974,35.95911168,7.661388
+thor,tiny,mires,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,34.493988864,321.312718848,355.806707712,16.809126
+thor,tiny,mires,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,1620.0,8.718680064,,8.718680064,7.608896
+thor,tiny,mires,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,8.718680064,1.4651228159999992,10.18380288,7.77198
+thor,tiny,mires,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,8.718680064,80.331866112,89.050546176,16.809126
+thor,tiny,mires,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,405.0,2.237497344,,2.237497344,7.608896
+thor,tiny,mires,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,2.237497344,1.465122816,3.70262016,8.214348
+thor,tiny,mires,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,2.237497344,20.086652928,22.324150272,16.809126
+thor,tiny,mires,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,97.0,1.100808192,,1.100808192,7.608896
+thor,tiny,mires,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,1.100808192,1.4651228160000005,2.565931008,9.98382
+thor,tiny,mires,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,1.100808192,5.011562496000001,6.112370688,16.809126
+terramind,tiny,mires,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",,324.0,1.879179264,,1.879179264,5.825664
+terramind,tiny,mires,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",linear,,1.879179264,0.098537472,1.977716736,6.120624
+terramind,tiny,mires,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",upernet,,1.879179264,16.66424832,18.543427584,13.212726
+thor,base,mires,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,6480.0,550.758383616,,550.758383616,94.136576
+thor,base,mires,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,550.758383616,2.038431744000036,552.79681536,94.29966
+thor,base,mires,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,550.758383616,404.266156032,955.024539648,117.64263
+thor,base,mires,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,1620.0,138.070327296,,138.070327296,94.136576
+thor,base,mires,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,138.070327296,2.0384317440000075,140.10875904,94.742028
+thor,base,mires,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,138.070327296,101.081284608,239.151611904,117.64263
+thor,base,mires,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,405.0,34.748891136,,34.748891136,94.136576
+thor,base,mires,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,34.748891136,2.0384317440000004,36.78732288,96.5115
+thor,base,mires,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,34.748891136,25.28506675200001,60.033957888,117.64263
+thor,base,mires,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,97.0,10.582228992,,10.582228992,94.136576
+thor,base,mires,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,10.582228992,2.0384317440000004,12.620660736,103.589388
+thor,base,mires,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,10.582228992,6.310944768000001,16.89317376,117.64263
+terramind,base,mires,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",,324.0,28.155838464,,28.155838464,86.920704
+terramind,base,mires,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",linear,,28.155838464,0.3851919360000018,28.5410304,88.1004
+terramind,base,mires,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",upernet,,28.155838464,18.188500992,46.344339456,98.972358
+thor,tiny,cocoamining,128,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,2304.0,12.263620608,,12.263620608,7.608896
+thor,tiny,cocoamining,128,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,12.263620608,0.1541406720000004,12.41776128,7.644486
+thor,tiny,cocoamining,128,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,12.263620608,65.06102784000001,77.324648448,18.363219
+thor,tiny,cocoamining,128,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,576.0,3.118989312,,3.118989312,7.608896
+thor,tiny,cocoamining,128,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,3.118989312,0.154140672,3.273129984,7.72743
+thor,tiny,cocoamining,128,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,3.118989312,16.27078656,19.389775872,18.363219
+thor,tiny,cocoamining,128,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,144.0,0.788004864,,0.788004864,7.608896
+thor,tiny,cocoamining,128,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,0.788004864,0.1541406719999999,0.942145536,8.059206
+thor,tiny,cocoamining,128,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,0.788004864,4.073226239999999,4.861231104,18.363219
+thor,tiny,cocoamining,128,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,36.0,0.818675712,,0.818675712,7.608896
+thor,tiny,cocoamining,128,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,0.818675712,0.154140672,0.972816384,9.38631
+thor,tiny,cocoamining,128,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,0.818675712,1.02383616,1.842511872,18.363219
+terramind,tiny,cocoamining,128,segmentation,16,"['S2L2A', 'S1RTC', 'DEM']","{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2'], 'S1RTC': ['VV', 'VH'], 'DEM': ['DEM']}",,64.0,1.060110336,,1.060110336,5.973504
+terramind,tiny,cocoamining,128,segmentation,16,"['S2L2A', 'S1RTC', 'DEM']","{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2'], 'S1RTC': ['VV', 'VH'], 'DEM': ['DEM']}",linear,,1.060110336,0.0095846400000001,1.069694976,6.120975
+terramind,tiny,cocoamining,128,segmentation,16,"['S2L2A', 'S1RTC', 'DEM']","{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2'], 'S1RTC': ['VV', 'VH'], 'DEM': ['DEM']}",upernet,,1.060110336,3.292889088,4.352999424,13.359795
+thor,base,cocoamining,128,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,2304.0,195.821568,,195.821568,94.136576
+thor,base,cocoamining,128,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,195.821568,0.2390753279999842,196.060643328,94.25511
+thor,base,cocoamining,128,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,195.821568,99.84973209599995,295.671300096,133.814595
+thor,base,cocoamining,128,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,576.0,49.16772864,,49.16772864,94.136576
+thor,base,cocoamining,128,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,49.16772864,0.2390753279999984,49.406803968,94.586886
+thor,base,cocoamining,128,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,49.16772864,24.984551424,74.152280064,133.814595
+thor,base,cocoamining,128,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,144.0,12.324962304,,12.324962304,94.136576
+thor,base,cocoamining,128,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,12.324962304,0.2390753280000002,12.564037632,95.91399
+thor,base,cocoamining,128,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,12.324962304,6.268256256000001,18.59321856,133.814595
+thor,base,cocoamining,128,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,36.0,5.56793856,,5.56793856,94.136576
+thor,base,cocoamining,128,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,5.56793856,0.2390753280000002,5.807013888,101.222406
+thor,base,cocoamining,128,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,5.56793856,1.5891824640000003,7.157121024,133.814595
+terramind,base,cocoamining,128,segmentation,16,"['S2L2A', 'S1RTC', 'DEM']","{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2'], 'S1RTC': ['VV', 'VH'], 'DEM': ['DEM']}",,64.0,16.471031808,,16.471031808,87.512064
+terramind,base,cocoamining,128,segmentation,16,"['S2L2A', 'S1RTC', 'DEM']","{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2'], 'S1RTC': ['VV', 'VH'], 'DEM': ['DEM']}",linear,,16.471031808,0.0378961920000016,16.508928,88.101903
+terramind,base,cocoamining,128,segmentation,16,"['S2L2A', 'S1RTC', 'DEM']","{'S2L2A': ['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2'], 'S1RTC': ['VV', 'VH'], 'DEM': ['DEM']}",upernet,,16.471031808,3.599892480000001,20.070924288,99.562947
+thor,tiny,sen1floods,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,11664.0,62.046240768,,62.046240768,7.608896
+thor,tiny,sen1floods,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,62.046240768,0.5202247680000056,62.566465536,7.632708
+thor,tiny,sen1floods,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,62.046240768,329.320267776,391.366508544,18.362962
+thor,tiny,sen1floods,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,2916.0,15.636529152,,15.636529152,7.608896
+thor,tiny,sen1floods,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,15.636529152,0.5202247680000003,16.15675392,7.688004
+thor,tiny,sen1floods,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,15.636529152,82.33559654400001,97.972125696,18.362962
+thor,tiny,sen1floods,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,729.0,3.989274624,,3.989274624,7.608896
+thor,tiny,sen1floods,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,3.989274624,0.5202247680000003,4.509499392,7.909188
+thor,tiny,sen1floods,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,3.989274624,20.589428736,24.57870336,18.362962
+thor,tiny,sen1floods,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,178.0,1.66330368,,1.66330368,7.608896
+thor,tiny,sen1floods,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,1.66330368,0.5202247680000001,2.183528448,8.793924
+thor,tiny,sen1floods,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,1.66330368,5.137219584,6.800523264,18.362962
+terramind,tiny,sen1floods,288,segmentation,16,"['S2L1C', 'S1GRD']",,,324.0,3.678732288,,3.678732288,6.071616
+terramind,tiny,sen1floods,288,segmentation,16,"['S2L1C', 'S1GRD']",,linear,,3.678732288,0.032182272,3.71091456,6.169928
+terramind,tiny,sen1floods,288,segmentation,16,"['S2L1C', 'S1GRD']",,upernet,,3.678732288,16.658939904,20.337672192,13.45765
+thor,base,sen1floods,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,11664.0,991.19333376,,991.19333376,94.136576
+thor,base,sen1floods,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,991.19333376,0.8068792320000284,992.000212992,94.215684
+thor,base,sen1floods,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,991.19333376,505.348227072,1496.541560832,133.814338
+thor,base,sen1floods,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,2916.0,248.29820928,,248.29820928,94.136576
+thor,base,sen1floods,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,248.29820928,0.806879232,249.105088512,94.436868
+thor,base,sen1floods,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,248.29820928,126.359175168,374.657384448,133.814338
+thor,base,sen1floods,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,729.0,62.395121664,,62.395121664,94.136576
+thor,base,sen1floods,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,62.395121664,0.806879232,63.202000896,95.321604
+thor,base,sen1floods,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,62.395121664,31.611912192000005,94.007033856,133.814338
+thor,base,sen1floods,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",,178.0,17.991991296,,17.991991296,94.136576
+thor,base,sen1floods,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",linear,,17.991991296,0.806879232,18.798870528,98.860548
+thor,base,sen1floods,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'RED_EDGE_1', 'RED_EDGE_2', 'RED_EDGE_3', 'NIR_BROAD', 'NIR_NARROW', 'SWIR_1', 'SWIR_2', 'VV', 'VH']",upernet,,17.991991296,7.892508672000002,25.884499968,133.814338
+terramind,base,sen1floods,288,segmentation,16,"['S2L1C', 'S1GRD']",,,324.0,55.993171968,,55.993171968,87.904512
+terramind,base,sen1floods,288,segmentation,16,"['S2L1C', 'S1GRD']",,linear,,55.993171968,0.1277337599999981,56.120905728,88.297736
+terramind,base,sen1floods,288,segmentation,16,"['S2L1C', 'S1GRD']",,upernet,,55.993171968,18.183192576,74.176364544,99.955138
+thor,tiny,burnscars,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,6480.0,34.462973952,,34.462973952,7.608896
+thor,tiny,burnscars,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,34.462973952,0.4883742720000015,34.951348224,7.626564
+thor,tiny,burnscars,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,34.462973952,321.22778419199994,355.690758144,16.808098
+thor,tiny,burnscars,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,1620.0,8.678227968,,8.678227968,7.608896
+thor,tiny,burnscars,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,8.678227968,0.4883742719999997,9.16660224,7.663428
+thor,tiny,burnscars,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,8.678227968,80.31063244799999,88.988860416,16.808098
+thor,tiny,burnscars,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,405.0,2.20962816,,2.20962816,7.608896
+thor,tiny,burnscars,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,2.20962816,0.4883742720000001,2.698002432,7.810884
+thor,tiny,burnscars,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,2.20962816,20.081344512,22.290972672,16.808098
+thor,tiny,burnscars,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,97.0,0.874119168,,0.874119168,7.608896
+thor,tiny,burnscars,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,0.874119168,0.4883742719999999,1.36249344,8.400708
+thor,tiny,burnscars,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,0.874119168,5.010235392,5.88435456,16.808098
+terramind,tiny,burnscars,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",,324.0,1.815478272,,1.815478272,5.629056
+terramind,tiny,burnscars,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",linear,,1.815478272,0.032182272,1.847660544,5.727368
+terramind,tiny,burnscars,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",upernet,,1.815478272,16.658939904,18.474418176,13.01509
+thor,base,burnscars,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,6480.0,550.634323968,,550.634323968,94.136576
+thor,base,burnscars,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,550.634323968,0.679477248000012,551.313801216,94.191108
+thor,base,burnscars,288,segmentation,4,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,550.634323968,404.18122137600005,954.815545344,117.641602
+thor,base,burnscars,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,1620.0,137.908518912,,137.908518912,94.136576
+thor,base,burnscars,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,137.908518912,0.6794772479999835,138.58799616,94.338564
+thor,base,burnscars,288,segmentation,8,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,137.908518912,101.06005094399998,238.968569856,117.641602
+thor,base,burnscars,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,405.0,34.6374144,,34.6374144,94.136576
+thor,base,burnscars,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,34.6374144,0.6794772480000049,35.316891648,94.928388
+thor,base,burnscars,288,segmentation,16,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,34.6374144,25.279758336,59.917172736,117.641602
+thor,base,burnscars,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",,97.0,9.675472896,,9.675472896,94.136576
+thor,base,burnscars,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",linear,,9.675472896,0.6794772479999995,10.354950144,97.287684
+thor,base,burnscars,288,segmentation,32,,"['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']",upernet,,9.675472896,6.309617663999999,15.98509056,117.641602
+terramind,base,burnscars,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",,324.0,27.901034496,,27.901034496,86.134272
+terramind,base,burnscars,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",linear,,27.901034496,0.1277337599999981,28.028768256,86.527496
+terramind,base,burnscars,288,segmentation,16,['S2L2A'],"{'S2L2A': ['BLUE', 'GREEN', 'RED', 'NIR_NARROW', 'SWIR_1', 'SWIR_2']}",upernet,,27.901034496,18.183192576,46.084227072,98.184898
+thor,tiny,floods,128,flood_change_detection,4,None,"['IW_VV', 'IW_VH']",,1024.0,5.443682304,,5.443682304,7.608896
+thor,tiny,floods,128,flood_change_detection,4,None,"['IW_VV', 'IW_VH']",mlp,,10.887364608,0.029425664,10.916790272,0.028898
+thor,tiny,floods,128,flood_change_detection,4,None,"['IW_VV', 'IW_VH']",pixelshuffle,,10.887364608,0.006291456,10.893656064,0.006176
+thor,tiny,floods,128,flood_change_detection,4,None,"['IW_VV', 'IW_VH']",context_aware_mlp,,10.887364608,0.039059456,10.926424064,0.03869
+thor,tiny,floods,128,flood_change_detection,8,None,"['IW_VV', 'IW_VH']",,256.0,1.371537408,,1.371537408,7.608896
+thor,tiny,floods,128,flood_change_detection,8,None,"['IW_VV', 'IW_VH']",mlp,,2.743074816,0.007356416,2.750431232,0.028898
+thor,tiny,floods,128,flood_change_detection,8,None,"['IW_VV', 'IW_VH']",pixelshuffle,,2.743074816,0.006291456,2.749366272,0.024704
+thor,tiny,floods,128,flood_change_detection,8,None,"['IW_VV', 'IW_VH']",context_aware_mlp,,2.743074816,0.009764864,2.75283968,0.03869
+thor,tiny,floods,128,flood_change_detection,16,None,"['IW_VV', 'IW_VH']",,64.0,0.34603008,,0.34603008,7.608896
+thor,tiny,floods,128,flood_change_detection,16,None,"['IW_VV', 'IW_VH']",mlp,,0.69206016,0.001839104,0.693899264,0.028898
+thor,tiny,floods,128,flood_change_detection,16,None,"['IW_VV', 'IW_VH']",pixelshuffle,,0.69206016,0.006291456,0.6983516160000001,0.098816
+thor,tiny,floods,128,flood_change_detection,16,None,"['IW_VV', 'IW_VH']",context_aware_mlp,,0.69206016,0.002441216,0.6945013760000001,0.03869
+thor,tiny,floods,128,flood_change_detection,32,None,"['IW_VV', 'IW_VH']",,16.0,0.191889408,,0.191889408,7.608896
+thor,tiny,floods,128,flood_change_detection,32,None,"['IW_VV', 'IW_VH']",mlp,,0.383778816,0.000459776,0.38423859200000005,0.028898
+thor,tiny,floods,128,flood_change_detection,32,None,"['IW_VV', 'IW_VH']",pixelshuffle,,0.383778816,0.006291456,0.390070272,0.395264
+thor,tiny,floods,128,flood_change_detection,32,None,"['IW_VV', 'IW_VH']",context_aware_mlp,,0.383778816,0.000610304,0.38438912000000003,0.03869
+terramind,tiny,floods,128,flood_change_detection,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",,64.0,0.34603008,,0.34603008,5.432448
+terramind,tiny,floods,128,flood_change_detection,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",mlp,,0.69206016,0.001839104,0.693899264,0.028898
+terramind,tiny,floods,128,flood_change_detection,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",pixelshuffle,,0.69206016,0.006291456,0.6983516160000001,0.098816
+terramind,tiny,floods,128,flood_change_detection,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",context_aware_mlp,,0.69206016,0.002441216,0.6945013760000001,0.03869
+thor,base,floods,128,flood_change_detection,4,None,"['IW_VV', 'IW_VH']",,1024.0,87.004545024,,87.004545024,94.136576
+thor,base,floods,128,flood_change_detection,4,None,"['IW_VV', 'IW_VH']",mlp,,174.009090048,0.104923136,174.114013184,0.102626
+thor,base,floods,128,flood_change_detection,4,None,"['IW_VV', 'IW_VH']",pixelshuffle,,174.009090048,0.025165824,174.034255872,0.024608
+thor,base,floods,128,flood_change_detection,4,None,"['IW_VV', 'IW_VH']",context_aware_mlp,,174.009090048,0.143458304,174.152548352,0.141794
+thor,base,floods,128,flood_change_detection,8,None,"['IW_VV', 'IW_VH']",,256.0,21.793603584,,21.793603584,94.136576
+thor,base,floods,128,flood_change_detection,8,None,"['IW_VV', 'IW_VH']",mlp,,43.587207168,0.026230784,43.613437952,0.102626
+thor,base,floods,128,flood_change_detection,8,None,"['IW_VV', 'IW_VH']",pixelshuffle,,43.587207168,0.025165824,43.612372992,0.098432
+thor,base,floods,128,flood_change_detection,8,None,"['IW_VV', 'IW_VH']",context_aware_mlp,,43.587207168,0.035864576,43.623071744,0.141794
+thor,base,floods,128,flood_change_detection,16,None,"['IW_VV', 'IW_VH']",,64.0,5.460983808,,5.460983808,94.136576
+thor,base,floods,128,flood_change_detection,16,None,"['IW_VV', 'IW_VH']",mlp,,10.921967616,0.006557696,10.928525312,0.102626
+thor,base,floods,128,flood_change_detection,16,None,"['IW_VV', 'IW_VH']",pixelshuffle,,10.921967616,0.025165824,10.94713344,0.393728
+thor,base,floods,128,flood_change_detection,16,None,"['IW_VV', 'IW_VH']",context_aware_mlp,,10.921967616,0.008966144,10.93093376,0.141794
+thor,base,floods,128,flood_change_detection,32,None,"['IW_VV', 'IW_VH']",,16.0,1.786773504,,1.786773504,94.136576
+thor,base,floods,128,flood_change_detection,32,None,"['IW_VV', 'IW_VH']",mlp,,3.573547008,0.001639424,3.5751864319999997,0.102626
+thor,base,floods,128,flood_change_detection,32,None,"['IW_VV', 'IW_VH']",pixelshuffle,,3.573547008,0.025165824,3.598712832,1.574912
+thor,base,floods,128,flood_change_detection,32,None,"['IW_VV', 'IW_VH']",context_aware_mlp,,3.573547008,0.002241536,3.575788544,0.141794
+terramind,base,floods,128,flood_change_detection,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",,64.0,5.460983808,,5.460983808,85.34784
+terramind,base,floods,128,flood_change_detection,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",mlp,,10.921967616,0.006557696,10.928525312,0.102626
+terramind,base,floods,128,flood_change_detection,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",pixelshuffle,,10.921967616,0.025165824,10.94713344,0.393728
+terramind,base,floods,128,flood_change_detection,16,['S1GRD'],"{'S1GRD': ['VV', 'VH']}",context_aware_mlp,,10.921967616,0.008966144,10.93093376,0.141794
